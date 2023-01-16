@@ -1,6 +1,6 @@
 {
-    "name": "Casa Bianca",
-    "short_name": "Casa Bianca",
+    "name": "Notary",
+    "short_name": "Notary",
     "icons": [
         {
             "src": "assets/images/favicons/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#333",
-    "background_color": "#333",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
 }
