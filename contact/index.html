@@ -32,7 +32,7 @@
       Похоже у вас отключён Javascript, поэтому вы видете это сообщение.
       
     </noscript>
-  <script defer src="/assets/js/vendor.f3f19c2.bundle.js"></script><script defer src="/assets/js/bundle.7271d49.bundle.js"></script><link href="/assets/css/bundle.da0367d.bundle.css" rel="stylesheet"></head>
+  <script defer src="/assets/js/vendor.4e91269.bundle.js"></script><script defer src="/assets/js/bundle.92b833c.bundle.js"></script><link href="/assets/css/bundle.4ffa5c7.bundle.css" rel="stylesheet"></head>
   <body>
     <div class="render"></div>
 <header class="header">
@@ -56,7 +56,7 @@
     </div>
   </div>
 </header>
-    <main>
+    <main id="main-scrollbar">
       <div class="barba" data-barba="wrapper">
         <div class="barba-container" data-barba="container" data-barba-namespace="contact">
           <div class="page-container">
@@ -116,10 +116,11 @@
           <h3 class="contact__subtitle contact__subtitle-offset">Write your info</h3>
           <div class="contact__inputs">
             <label class="contact__label">
-              <input class="contact__input" type="text" name="name" required><span>Full Name*</span>
+              <input class="contact__input" type="text" name="name"><span>Full Name*</span>
+              <p class="error-text">Incorrect name</p>
             </label>
             <label class="contact__label">
-              <input class="contact__input" type="email" name="email" required><span>Email address*</span>
+              <input class="contact__input" type="email" name="email"><span>Email address*</span>
               <p class="error-text">Email invalid</p>
             </label>
             <label class="contact__label">
@@ -130,14 +131,20 @@
             </label>
           </div>
           <label class="contact__policy">
-            <input type="checkbox" name="policy" required><span>Accept the<a href="/policy/">Privacy Policy</a></span>
+            <input type="checkbox" name="policy"><span>Accept the<a href="/policy/">Privacy Policy</a></span>
           </label>
           <div class="contact__submit">
             <button type="submit">Send message</button>
             <div class="contact__copy">
-              <svg class="contact__copy__button" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                <path d="M5 15C4.06812 15 3.60218 15 3.23463 14.8478C2.74458 14.6448 2.35523 14.2554 2.15224 13.7654C2 13.3978 2 12.9319 2 12V5.2C2 4.0799 2 3.51984 2.21799 3.09202C2.40973 2.71569 2.71569 2.40973 3.09202 2.21799C3.51984 2 4.0799 2 5.2 2H12C12.9319 2 13.3978 2 13.7654 2.15224C14.2554 2.35523 14.6448 2.74458 14.8478 3.23463C15 3.60218 15 4.06812 15 5M12.2 22H18.8C19.9201 22 20.4802 22 20.908 21.782C21.2843 21.5903 21.5903 21.2843 21.782 20.908C22 20.4802 22 19.9201 22 18.8V12.2C22 11.0799 22 10.5198 21.782 10.092C21.5903 9.71569 21.2843 9.40973 20.908 9.21799C20.4802 9 19.9201 9 18.8 9H12.2C11.0799 9 10.5198 9 10.092 9.21799C9.71569 9.40973 9.40973 9.71569 9.21799 10.092C9 10.5198 9 11.0799 9 12.2V18.8C9 19.9201 9 20.4802 9.21799 20.908C9.40973 21.2843 9.71569 21.5903 10.092 21.782C10.5198 22 11.0799 22 12.2 22Z" stroke="#5B5B5B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-              </svg><a href="mailto:hello@entrafusion.com">hello@entrafusion.com</a>
+              <div class="contact__copy__item">
+                <svg class="contact__copy__button contact__copy__trigger" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                  <path d="M5 15C4.06812 15 3.60218 15 3.23463 14.8478C2.74458 14.6448 2.35523 14.2554 2.15224 13.7654C2 13.3978 2 12.9319 2 12V5.2C2 4.0799 2 3.51984 2.21799 3.09202C2.40973 2.71569 2.71569 2.40973 3.09202 2.21799C3.51984 2 4.0799 2 5.2 2H12C12.9319 2 13.3978 2 13.7654 2.15224C14.2554 2.35523 14.6448 2.74458 14.8478 3.23463C15 3.60218 15 4.06812 15 5M12.2 22H18.8C19.9201 22 20.4802 22 20.908 21.782C21.2843 21.5903 21.5903 21.2843 21.782 20.908C22 20.4802 22 19.9201 22 18.8V12.2C22 11.0799 22 10.5198 21.782 10.092C21.5903 9.71569 21.2843 9.40973 20.908 9.21799C20.4802 9 19.9201 9 18.8 9H12.2C11.0799 9 10.5198 9 10.092 9.21799C9.71569 9.40973 9.40973 9.71569 9.21799 10.092C9 10.5198 9 11.0799 9 12.2V18.8C9 19.9201 9 20.4802 9.21799 20.908C9.40973 21.2843 9.71569 21.5903 10.092 21.782C10.5198 22 11.0799 22 12.2 22Z" stroke="#5B5B5B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                </svg>
+                <div class="contact__copy__tip">Copy the email</div>
+              </div>
+              <div class="contact__copy__item"><a class="contact__copy__trigger" href="mailto:hello@entrafusion.com">hello@entrafusion.com</a>
+                <div class="contact__copy__tip">Open the email client</div>
+              </div>
             </div>
           </div>
         </form>
@@ -186,5 +193,9 @@
     <div class="error-alert">
       <div class="error-alert__text"></div>
     </div>
+<div class="cookie">
+  <p>This website uses<span>cookies</span></p>
+  <button type="button">Accept</button>
+</div>
   </body>
 </html>
