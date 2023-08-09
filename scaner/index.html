@@ -6,8 +6,8 @@
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <meta content="#da532c" name="msapplication-TileColor">
     <meta content="#ffffff" name="theme-color">
-    <meta content="Главная страница" name="description">
-    <meta content="Главная, страница" name="keywords">
+    <meta content="Это странца межбиржевого сканера" name="description">
+    <meta content="Страница, межбиржевой сканер" name="keywords">
     <meta content="summary" name="twitter:card">
     <meta content="" name="twitter:description">
     <meta content="" name="twitter:image">
@@ -20,9 +20,9 @@
     <link href="/assets/images/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
     <link href="/assets/images/favicons/favicon.ico" rel="shortcut icon">
     <link color="#5bbad5" href="/assets/images/favicons/safari-pinned-tab.svg" rel="mask-icon">
-    <title>Arbitscan | Главная</title>
-    <link href="./manifest.json" rel="manifest" crossorigin>
-    <meta content="./browserconfig.xml" name="msapplication-config">
+    <title>Arbitscan | Межбиржевой сканер</title>
+    <link href="../manifest.json" rel="manifest" crossorigin>
+    <meta content="../browserconfig.xml" name="msapplication-config">
     <script>
       function autorun() {}
       if (window.addEventListener) window.addEventListener("load", autorun, false);
@@ -32,10 +32,10 @@
       Похоже у вас отключён Javascript, поэтому вы видете это сообщение.
       
     </noscript>
-  <link href="/assets/css/bundle.998a240.bundle.css" rel="stylesheet"></head>
+  <script defer src="/assets/js/vendor.cc7f8cf.bundle.js"></script><script defer src="/assets/js/bundle.ed6971b.bundle.js"></script><link href="/assets/css/bundle.998a240.bundle.css" rel="stylesheet"></head>
   <body>
     <div class="render"></div>
-    <main>
+    <main class="aside-closed">
       <div class="container">
 <aside class="aside aside-opened">
   <div class="aside__wrapper">
@@ -76,198 +76,353 @@
   </div>
 </aside>
         <div class="wrapper">
-          <section class="plans gapper">
-            <div class="plans__wrapper">
-              <div class="plans__content">
-                <h2 class="plans__title">Выбери свой тариф</h2>
-                <p class="plans__description">Получи максимум пользы от arbitscan.</p>
-              </div>
-              <div class="plans__items">
-                        <div class="plan plan-sm">
-                          <div class="plan__box">
-                            <div class="plan__header">
-                              <h3 class="plan__title">Standart</h3>
-                              <p class="plan__description">Получите доступ ко всему функционалу межбиржевого сканера</p>
+          <section class="scaner">
+            <div class="scaner__header">
+                      <div class="headline gapper headline-lg">
+                        <h3 class="headline__title headline__title-lg"><span>Межбиржевой сканер</span></h3>
+                        <div class="headline__wrapper"><a class="headline__box" href="#">
+                            <div class="headline__link">
+                              <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                                <path d="M9 21.9998H15C20 21.9998 22 19.9998 22 14.9998V8.99976C22 3.99976 20 1.99976 15 1.99976H9C4 1.99976 2 3.99976 2 8.99976V14.9998C2 19.9998 4 21.9998 9 21.9998Z" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                                <path d="M9.09961 12.0002V10.5202C9.09961 8.61024 10.4496 7.84024 12.0996 8.79024L13.3796 9.53023L14.6596 10.2702C16.3096 11.2202 16.3096 12.7802 14.6596 13.7302L13.3796 14.4702L12.0996 15.2102C10.4496 16.1602 9.09961 15.3802 9.09961 13.4802V12.0002Z" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></path>
+                              </svg><span>Как работать со сканером?</span>
+                            </div></a>
+                          <button class="headline__box">
+                            <div class="headline__link headline__link-semibold">
+                              <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                                <path d="M3 9.11011V14.8801C3 17.0001 3 17.0001 5 18.3501L10.5 21.5301C11.33 22.0101 12.68 22.0101 13.5 21.5301L19 18.3501C21 17.0001 21 17.0001 21 14.8901V9.11011C21 7.00011 21 7.00011 19 5.65011L13.5 2.47011C12.68 1.99011 11.33 1.99011 10.5 2.47011L5 5.65011C3 7.00011 3 7.00011 3 9.11011Z" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                                <path d="M12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15V15Z" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                              </svg><span>Настройки</span>
                             </div>
-                            <div class="plan__footer">
-                              <div class="plan__footer__box">
-                                <p class="plan__price">$150</p>
-                              </div><a class="plan__btn" href="/rates">Подробнее</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="plan plan-sm">
-                          <div class="plan__box">
-                            <div class="plan__header">
-                              <h3 class="plan__title">Professional</h3>
-                              <p class="plan__description">Получите бесплатный доступ к тестированию новых разделов и торговым стратегиями</p>
-                            </div>
-                            <div class="plan__footer">
-                              <div class="plan__footer__box">
-                                <p class="plan__price">$150</p>
-                              </div><a class="plan__btn" href="/rates">Подробнее</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="plan plan-sm">
-                          <div class="plan__box">
-                            <div class="plan__header">
-                              <h3 class="plan__title">Premium</h3>
-                              <p class="plan__description">С вами будет работать команда опытных менторов</p>
-                            </div>
-                            <div class="plan__footer">
-                              <div class="plan__footer__box">
-                                <p class="plan__price">$150</p>
-                              </div><a class="plan__btn" href="/rates">Подробнее</a>
-                            </div>
-                          </div>
-                        </div>
-              </div>
-            </div>
-          </section>
-                  <section class="trial gapper">
-                    <div class="grid-container">
-                      <div class="trial__wrapper">
-                        <div class="trial__container">
-                          <div class="trial__content">
-                            <div class="trial__info">
-                              <h3 class="trial__title">Пробная версия</h3>
-                              <p class="trial__description">Попробуйте бесплатно функционал сервиса с пробной версией на 3 дня</p>
-                            </div>
-                            <ul class="trial__list">
-                              <li class="trial__item"><img src="/assets/images/icons/check.svg" alt="check"><span>Доступ к межбиржевому сканеру</span></li>
-                              <li class="trial__item"><img src="/assets/images/icons/check.svg" alt="check"><span>Временный доступ к платному материалу</span></li>
-                              <li class="trial__item"><img src="/assets/images/icons/check.svg" alt="check"><span>Первые 3 дня бесплатно</span></li>
-                            </ul>
-                          </div>
-                          <button class="trial__btn"></button>
-                        </div>
-                        <div class="trial__status">
-                          <div class="trial__status__content trial__status__content-enabled">
-                            <h4>До конца пробной версии осталось</h4>
-                            <p>3 дня</p>
-                          </div>
-                          <div class="trial__status__content trial__status__content-disabled">
-                            <h3>Пробная версия еще не активна</h3>
-                          </div>
+                          </button>
                         </div>
                       </div>
-                    </div>
-                  </section>
-          <section class="hero">
-                    <div class="headline gapper">
-                      <h3 class="headline__title headline__title-gradient"><span>Новости arbitscan</span></h3>
-                    </div>
-            <div class="grid-container">
-              <div class="hero__video"><a class="video-preview" href="#" target="_blank">
-  <div class="video-preview__image"><img src="/assets/images/video_preview.jpg" alt="video-preview">
-    <h4 class="video-preview__description">Команда arbitscan. Кто работает над проектом?</h4>
-  </div></a><a class="video-preview" href="#" target="_blank">
-  <div class="video-preview__image"><img src="/assets/images/video_preview.jpg" alt="video-preview">
-    <h4 class="video-preview__description">Команда arbitscan. Кто работает над проектом?</h4>
-  </div></a>
-              </div><a class="hero__social__link hero__social__link-shorts" href="#"><img src="/assets/images/social/youtube.svg" alt="youtube"> Shorts</a>
-              <div class="hero__social"><a class="hero__social__link" href="#" target="_blank"><img src="/assets/images/social/telegram.svg" alt="telegtam"> Telegram</a><a class="hero__social__link" href="#" target="_blank"><img src="/assets/images/social/telegram.svg" alt="telegtam"> Коммьюнити</a><a class="hero__social__link" href="#" target="_blank"><img src="/assets/images/social/youtube.svg" alt="youtube"> YouTube</a></div>
             </div>
-          </section>
-          <section class="articles gapper">
-            <div class="grid-container">
-                      <article class="article article-tablet">
-                        <h3 class="article__title">Арбитраж крипты. Всё что нужно знать.</h3>
-                        <p class="article__description">Всем привет, на связи MediaMetriqa, и сегодня мы поговорим о, наверное, самой хайповой теме в крипте в последние месяцы....</p>
-                        <div class="article__box"><a class="article__link" href="#" target="_blank">
-                            <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                              <path d="M21 9.00001L21 3.00001M21 3.00001H15M21 3.00001L12 12M10 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21H16.2C17.8802 21 18.7202 21 19.362 20.673C19.9265 20.3854 20.3854 19.9265 20.673 19.362C21 18.7202 21 17.8802 21 16.2V14" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-                            </svg><span>Читать статью</span></a><span class="article__more">vc.ru</span></div>
-                      </article>
-                      <article class="article article-tablet">
-                        <h3 class="article__title">Арбитраж крипты. Всё что нужно знать будучи новичком.</h3>
-                        <p class="article__description">Всем привет, на связи MediaMetriqa, и сегодня мы поговорим о, наверное, самой хайповой теме в крипте в последние месяцы....</p>
-                        <div class="article__box"><a class="article__link" href="#" target="_blank">
-                            <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                              <path d="M21 9.00001L21 3.00001M21 3.00001H15M21 3.00001L12 12M10 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21H16.2C17.8802 21 18.7202 21 19.362 20.673C19.9265 20.3854 20.3854 19.9265 20.673 19.362C21 18.7202 21 17.8802 21 16.2V14" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-                            </svg><span>Читать статью</span></a><span class="article__more">vc.ru</span></div>
-                      </article>
-                      <article class="article article-tablet article-big">
-                        <h3 class="article__title">Арбитраж криптовалют: что это, как работает, и как зарабатывать на разнице курсов криптовалют</h3>
-                        <p class="article__description">Всем привет, на связи MediaMetriqa, и сегодня мы поговорим о, наверное, самой хайповой теме в крипте в последние месяцы. Всем привет, на связи MediaMetriqa, и сегодня мы поговорим о, наверное, самой хайповой теме в</p>
-                        <div class="article__box"><a class="article__link" href="#" target="_blank">
-                            <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                              <path d="M21 9.00001L21 3.00001M21 3.00001H15M21 3.00001L12 12M10 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21H16.2C17.8802 21 18.7202 21 19.362 20.673C19.9265 20.3854 20.3854 19.9265 20.673 19.362C21 18.7202 21 17.8802 21 16.2V14" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-                            </svg><span>Читать статью</span></a><span class="article__more">vc.ru</span></div>
-                      </article>
+            <div class="scaner__cards">
+<div class="scaner__card">
+  <div class="scaner__viewed"><img class="scaner__viewed__icon" src="/assets/images/icons/eye.svg" alt="eye"><span class="scaner__viewed__title">Просмотрено</span></div>
+  <div class="scaner__exchanges">
+    <div class="scaner__exchange scaner__exchange-line">
+      <div class="scaner__exchange-top"><img class="scaner__exchange__icon" src="/assets/images/icons/exchange.svg" alt="exchange">
+        <h3 class="scaner__exchange__name">Kucoin</h3>
+      </div>
+      <div class="scaner__exchange-bottom">
+        <h3 class="scaner__exchange__name">USDT</h3><img src="/assets/images/icons/exchange-arrow.svg" alt="exchange-arrow">
+        <h3 class="scaner__exchange__name">BTC</h3>
+      </div>
+    </div>
+    <div class="scaner__exchange">
+      <div class="scaner__exchange-top"><img class="scaner__exchange__icon" src="/assets/images/icons/exchange.svg" alt="exchange">
+        <h3 class="scaner__exchange__name">Binance</h3>
+      </div>
+      <div class="scaner__exchange-bottom">
+        <h3 class="scaner__exchange__name">USDT</h3><img src="/assets/images/icons/exchange-arrow.svg" alt="exchange-arrow">
+        <h3 class="scaner__exchange__name">BTC</h3>
+      </div>
+    </div>
+  </div>
+  <div class="scaner__table">
+    <div class="scaner__table-static">
+      <table>
+        <thead>
+          <tr>
+            <th>Профит за</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Профит</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="scaner__table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>100 USD</th>
+            <th>500 USD</th>
+            <th>1000 USD</th>
+            <th>2000 USD</th>
+            <th>2000 USD</th>
+            <th>2000 USD</th>
+            <th>2000 USD</th>
+            <th>5000 USD</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+  <table class="scaner__table-time">
+    <thead>
+      <tr>
+        <th>TTL</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td>999 min</td>
+      </tr>
+    </tfoot>
+  </table><a class="scaner__btn" href="/offer">Детальная страница</a>
+</div>
+<div class="scaner__card">
+  <div class="scaner__viewed"><img class="scaner__viewed__icon" src="/assets/images/icons/eye.svg" alt="eye"><span class="scaner__viewed__title">Просмотрено</span></div>
+  <div class="scaner__exchanges">
+    <div class="scaner__exchange scaner__exchange-line">
+      <div class="scaner__exchange-top"><img class="scaner__exchange__icon" src="/assets/images/icons/exchange.svg" alt="exchange">
+        <h3 class="scaner__exchange__name">Kucoin</h3>
+      </div>
+      <div class="scaner__exchange-bottom">
+        <h3 class="scaner__exchange__name">USDT</h3><img src="/assets/images/icons/exchange-arrow.svg" alt="exchange-arrow">
+        <h3 class="scaner__exchange__name">BTC</h3>
+      </div>
+    </div>
+    <div class="scaner__exchange">
+      <div class="scaner__exchange-top"><img class="scaner__exchange__icon" src="/assets/images/icons/exchange.svg" alt="exchange">
+        <h3 class="scaner__exchange__name">Binance</h3>
+      </div>
+      <div class="scaner__exchange-bottom">
+        <h3 class="scaner__exchange__name">USDT</h3><img src="/assets/images/icons/exchange-arrow.svg" alt="exchange-arrow">
+        <h3 class="scaner__exchange__name">BTC</h3>
+      </div>
+    </div>
+  </div>
+  <div class="scaner__table">
+    <div class="scaner__table-static">
+      <table>
+        <thead>
+          <tr>
+            <th>Профит за</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Профит</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="scaner__table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>100 USD</th>
+            <th>500 USD</th>
+            <th>1000 USD</th>
+            <th>2000 USD</th>
+            <th>2000 USD</th>
+            <th>2000 USD</th>
+            <th>2000 USD</th>
+            <th>5000 USD</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+  <table class="scaner__table-time">
+    <thead>
+      <tr>
+        <th>TTL</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td>999 min</td>
+      </tr>
+    </tfoot>
+  </table><a class="scaner__btn" href="/offer">Детальная страница</a>
+</div>
+<div class="scaner__card">
+  <div class="scaner__viewed"><img class="scaner__viewed__icon" src="/assets/images/icons/eye.svg" alt="eye"><span class="scaner__viewed__title">Просмотрено</span></div>
+  <div class="scaner__exchanges">
+    <div class="scaner__exchange scaner__exchange-line">
+      <div class="scaner__exchange-top"><img class="scaner__exchange__icon" src="/assets/images/icons/exchange.svg" alt="exchange">
+        <h3 class="scaner__exchange__name">Kucoin</h3>
+      </div>
+      <div class="scaner__exchange-bottom">
+        <h3 class="scaner__exchange__name">USDT</h3><img src="/assets/images/icons/exchange-arrow.svg" alt="exchange-arrow">
+        <h3 class="scaner__exchange__name">BTC</h3>
+      </div>
+    </div>
+    <div class="scaner__exchange">
+      <div class="scaner__exchange-top"><img class="scaner__exchange__icon" src="/assets/images/icons/exchange.svg" alt="exchange">
+        <h3 class="scaner__exchange__name">Binance</h3>
+      </div>
+      <div class="scaner__exchange-bottom">
+        <h3 class="scaner__exchange__name">USDT</h3><img src="/assets/images/icons/exchange-arrow.svg" alt="exchange-arrow">
+        <h3 class="scaner__exchange__name">BTC</h3>
+      </div>
+    </div>
+  </div>
+  <div class="scaner__table">
+    <div class="scaner__table-static">
+      <table>
+        <thead>
+          <tr>
+            <th>Профит за</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Профит</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="scaner__table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>100 USD</th>
+            <th>500 USD</th>
+            <th>1000 USD</th>
+            <th>2000 USD</th>
+            <th>2000 USD</th>
+            <th>2000 USD</th>
+            <th>2000 USD</th>
+            <th>5000 USD</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+  <table class="scaner__table-time">
+    <thead>
+      <tr>
+        <th>TTL</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td>999 min</td>
+      </tr>
+    </tfoot>
+  </table><a class="scaner__btn" href="/offer">Детальная страница</a>
+</div>
+<div class="scaner__card">
+  <div class="scaner__viewed"><img class="scaner__viewed__icon" src="/assets/images/icons/eye.svg" alt="eye"><span class="scaner__viewed__title">Просмотрено</span></div>
+  <div class="scaner__exchanges">
+    <div class="scaner__exchange scaner__exchange-line">
+      <div class="scaner__exchange-top"><img class="scaner__exchange__icon" src="/assets/images/icons/exchange.svg" alt="exchange">
+        <h3 class="scaner__exchange__name">Kucoin</h3>
+      </div>
+      <div class="scaner__exchange-bottom">
+        <h3 class="scaner__exchange__name">USDT</h3><img src="/assets/images/icons/exchange-arrow.svg" alt="exchange-arrow">
+        <h3 class="scaner__exchange__name">BTC</h3>
+      </div>
+    </div>
+    <div class="scaner__exchange">
+      <div class="scaner__exchange-top"><img class="scaner__exchange__icon" src="/assets/images/icons/exchange.svg" alt="exchange">
+        <h3 class="scaner__exchange__name">Binance</h3>
+      </div>
+      <div class="scaner__exchange-bottom">
+        <h3 class="scaner__exchange__name">USDT</h3><img src="/assets/images/icons/exchange-arrow.svg" alt="exchange-arrow">
+        <h3 class="scaner__exchange__name">BTC</h3>
+      </div>
+    </div>
+  </div>
+  <div class="scaner__table">
+    <div class="scaner__table-static">
+      <table>
+        <thead>
+          <tr>
+            <th>Профит за</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Профит</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="scaner__table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>100 USD</th>
+            <th>500 USD</th>
+            <th>1000 USD</th>
+            <th>2000 USD</th>
+            <th>2000 USD</th>
+            <th>2000 USD</th>
+            <th>2000 USD</th>
+            <th>5000 USD</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+            <td>236.83$</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+  <table class="scaner__table-time">
+    <thead>
+      <tr>
+        <th>TTL</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td>999 min</td>
+      </tr>
+    </tfoot>
+  </table><a class="scaner__btn" href="/offer">Детальная страница</a>
+</div>
             </div>
-          </section>
-          <section class="guides gapper">
-                    <div class="headline gapper">
-                      <h3 class="headline__title"><span>Гайды</span></h3>
-                    </div>
-            <div class="grid-container"><a class="video-preview" href="#" target="_blank">
-  <div class="video-preview__image"><img src="/assets/images/video_preview.jpg" alt="video-preview">
-    <h4 class="video-preview__description">Команда arbitscan. Кто работает над проектом?</h4>
-  </div></a><a class="video-preview" href="#" target="_blank">
-  <div class="video-preview__image"><img src="/assets/images/video_preview.jpg" alt="video-preview">
-    <h4 class="video-preview__description">Команда arbitscan. Кто работает над проектом?</h4>
-  </div></a><a class="video-preview" href="#" target="_blank">
-  <div class="video-preview__image"><img src="/assets/images/video_preview.jpg" alt="video-preview">
-    <h4 class="video-preview__description">Команда arbitscan. Кто работает над проектом?</h4>
-  </div></a>
-            </div>
-          </section>
-          <section class="research">
-                    <div class="headline gapper">
-                      <h3 class="headline__title"><span>Исследования</span></h3>
-                    </div>
-            <div class="grid-container">
-                      <article class="article">
-                        <h3 class="article__title">Арбитраж крипты. Всё что нужно знать.</h3>
-                        <p class="article__description">Всем привет, на связи MediaMetriqa, и сегодня мы поговорим о, наверное, самой хайповой теме в крипте в последние месяцы....</p>
-                        <div class="article__box"><a class="article__link" href="#" target="_blank">
-                            <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                              <path d="M21 9.00001L21 3.00001M21 3.00001H15M21 3.00001L12 12M10 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21H16.2C17.8802 21 18.7202 21 19.362 20.673C19.9265 20.3854 20.3854 19.9265 20.673 19.362C21 18.7202 21 17.8802 21 16.2V14" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-                            </svg><span>Читать статью</span></a><span class="article__more">vc.ru</span></div>
-                      </article>
-                      <article class="article">
-                        <h3 class="article__title">Арбитраж крипты. Всё что нужно знать.</h3>
-                        <p class="article__description">Всем привет, на связи MediaMetriqa, и сегодня мы поговорим о, наверное, самой хайповой теме в крипте в последние месяцы....</p>
-                        <div class="article__box"><a class="article__link" href="#" target="_blank">
-                            <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                              <path d="M21 9.00001L21 3.00001M21 3.00001H15M21 3.00001L12 12M10 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21H16.2C17.8802 21 18.7202 21 19.362 20.673C19.9265 20.3854 20.3854 19.9265 20.673 19.362C21 18.7202 21 17.8802 21 16.2V14" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-                            </svg><span>Читать статью</span></a><span class="article__more">vc.ru</span></div>
-                      </article>
-                      <article class="article article-big">
-                        <h3 class="article__title">Арбитраж криптовалют: что это, как работает, и как зарабатывать на разнице курсов криптовалют</h3>
-                        <p class="article__description">Всем привет, на связи MediaMetriqa, и сегодня мы поговорим о, наверное, самой хайповой теме в крипте в последние месяцы. Всем привет, на связи MediaMetriqa, и сегодня мы поговорим о, наверное, самой хайповой теме в</p>
-                        <div class="article__box"><a class="article__link" href="#" target="_blank">
-                            <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                              <path d="M21 9.00001L21 3.00001M21 3.00001H15M21 3.00001L12 12M10 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21H16.2C17.8802 21 18.7202 21 19.362 20.673C19.9265 20.3854 20.3854 19.9265 20.673 19.362C21 18.7202 21 17.8802 21 16.2V14" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-                            </svg><span>Читать статью</span></a><span class="article__more">vc.ru</span></div>
-                      </article>
-                      <article class="article article-big">
-                        <h3 class="article__title">Арбитраж криптовалют: что это, как работает, и как зарабатывать на разнице курсов криптовалют</h3>
-                        <p class="article__description">Всем привет, на связи MediaMetriqa, и сегодня мы поговорим о, наверное, самой хайповой теме в крипте в последние месяцы. Всем привет, на связи MediaMetriqa, и сегодня мы поговорим о, наверное, самой хайповой теме в</p>
-                        <div class="article__box"><a class="article__link" href="#" target="_blank">
-                            <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                              <path d="M21 9.00001L21 3.00001M21 3.00001H15M21 3.00001L12 12M10 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21H16.2C17.8802 21 18.7202 21 19.362 20.673C19.9265 20.3854 20.3854 19.9265 20.673 19.362C21 18.7202 21 17.8802 21 16.2V14" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-                            </svg><span>Читать статью</span></a><span class="article__more">vc.ru</span></div>
-                      </article>
-                      <article class="article">
-                        <h3 class="article__title">Арбитраж крипты. Всё что нужно знать.</h3>
-                        <p class="article__description">Всем привет, на связи MediaMetriqa, и сегодня мы поговорим о, наверное, самой хайповой теме в крипте в последние месяцы....</p>
-                        <div class="article__box"><a class="article__link" href="#" target="_blank">
-                            <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                              <path d="M21 9.00001L21 3.00001M21 3.00001H15M21 3.00001L12 12M10 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21H16.2C17.8802 21 18.7202 21 19.362 20.673C19.9265 20.3854 20.3854 19.9265 20.673 19.362C21 18.7202 21 17.8802 21 16.2V14" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-                            </svg><span>Читать статью</span></a><span class="article__more">vc.ru</span></div>
-                      </article>
-                      <article class="article">
-                        <h3 class="article__title">Арбитраж крипты. Всё что нужно знать.</h3>
-                        <p class="article__description">Всем привет, на связи MediaMetriqa, и сегодня мы поговорим о, наверное, самой хайповой теме в крипте в последние месяцы....</p>
-                        <div class="article__box"><a class="article__link" href="#" target="_blank">
-                            <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
-                              <path d="M21 9.00001L21 3.00001M21 3.00001H15M21 3.00001L12 12M10 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21H16.2C17.8802 21 18.7202 21 19.362 20.673C19.9265 20.3854 20.3854 19.9265 20.673 19.362C21 18.7202 21 17.8802 21 16.2V14" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-                            </svg><span>Читать статью</span></a><span class="article__more">vc.ru</span></div>
-                      </article>
-            </div>
+<div class="navigation"><a class="navigation__link navigation__link-prev navigation__link-disabled" href="#">
+    <svg fill="none" viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg" width="8" height="14">
+      <path d="M7 13L1 7L7 1" stroke="#E3E3E3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+    </svg></a><a class="navigation__link navigation__link-active" href="#">1</a><a class="navigation__link" href="#">2</a><a class="navigation__link" href="#">3</a><a class="navigation__link" href="#">4</a><span>...</span><a class="navigation__link" href="#">23</a><a class="navigation__link navigation__link-next" href="#">
+    <svg fill="none" viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg" width="8" height="14">
+      <path d="M1 13L7 7L1 1" stroke="#7E5EFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+    </svg></a></div>
           </section>
         </div>
       </div>
@@ -540,5 +695,5 @@
     </div>
   </div>
 </div>
-  <script defer src="/assets/js/vendor.cc7f8cf.bundle.js"></script><script defer src="/assets/js/bundle.ed6971b.bundle.js"></script></body>
+  </body>
 </html>
