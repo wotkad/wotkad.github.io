@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=4" name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <meta content="#da532c" name="msapplication-TileColor">
     <meta content="#ffffff" name="theme-color">
@@ -43,7 +43,7 @@
 <header class="header">
   <div class="wrapper">
     <div class="header__wrapper">
-      <div class="header__logo"><a class="header__logo__link" href="/">
+      <div class="header__logo"><a class="header__logo__link" href="/" title="logo">
           <svg class="header__logo__link-desktop" fill="none" viewBox="0 0 160 32" xmlns="http://www.w3.org/2000/svg" width="160" height="32">
             <g clip-path="url(#clip0_252_568)">
               <path d="M18.4646 0V21.3939L0.0532074 32.0863L9.26044 16.0416L18.4646 0Z" fill="black"></path>
@@ -288,12 +288,12 @@
       <div class="cases__header reveal-bottom">
         <h2 class="cases__header__title">Наши кейсы</h2>
         <div class="cases__header__buttons">
-          <button class="cases__header__arrow cases__header__arrow-back">
+          <button class="cases__header__arrow cases__header__arrow-back" name="cases-back">
             <svg fill="none" viewBox="0 0 40 36" xmlns="http://www.w3.org/2000/svg" width="40" height="36">
               <path d="M40 15.75L8.71222 15.75L21.428 3.1725L18.1979 -9.53002e-07L-7.86805e-07 18L18.1978 36L21.4052 32.8275L8.71222 20.25L40 20.25L40 15.75Z" fill="#FF9915"></path>
             </svg>
           </button>
-          <button class="cases__header__arrow cases__header__arrow-forward">
+          <button class="cases__header__arrow cases__header__arrow-forward" name="cases-forward">
             <svg fill="none" viewBox="0 0 40 36" xmlns="http://www.w3.org/2000/svg" width="40" height="36">
               <path d="M-6.88454e-07 20.25L31.2878 20.25L18.572 32.8275L21.8021 36L40 18L21.8021 -9.53002e-07L18.5948 3.1725L31.2878 15.75L-8.85156e-07 15.75L-6.88454e-07 20.25Z" fill="#FF9915"></path>
             </svg>
@@ -684,15 +684,15 @@
         <div class="footer__form__box">
           <div class="footer__form__top">
             <label>
-              <input id="name" type="text" placeholder="Имя*" name="name" required>
+              <input type="text" placeholder="Имя*" name="name" required>
             </label>
             <label>
-              <input id="phone" type="tel" placeholder="Телефон*" name="phone" required>
+              <input type="tel" placeholder="Телефон*" name="phone" required>
             </label>
           </div>
           <div class="footer__form__bottom">
             <label>
-              <textarea id="question" type="text" placeholder="Ваш вопрос" name="question"></textarea>
+              <textarea type="text" placeholder="Ваш вопрос" name="question"></textarea>
             </label>
           </div>
         </div>
@@ -705,7 +705,7 @@
     <div class="footer__content__submit">
       <div class="footer__content__wrapper">
         <div class="footer__content__box"><img src="/assets/images/check.svg" alt="check">
-          <h2 class="footer__content__title">Спасибо!</h2>
+          <h5 class="footer__content__title">Спасибо!</h5>
         </div>
         <p class="footer__content__description">Ваша заявка успешно отправлена. ответим в ближайшее время! Мы находимся в Китае, поэтому отвечаем с 5:00 до 14:00 по мск.</p>
         <p class="footer__content__description">Если не хочется ждать:</p>
@@ -719,7 +719,7 @@
           <svg fill="none" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
             <path d="M16 28L15.4462 27.3836C15.1 27.0411 7 17.589 7 11.9041C7 6.9726 11.0154 3 16 3C20.9846 3 25 6.9726 25 11.9041C25 17.589 16.9 27.0411 16.5538 27.4521L16 28ZM16 4.36986C11.7769 4.36986 8.38462 7.72603 8.38462 11.9041C8.38462 16.2877 14.2 23.6849 16 25.8767C17.8 23.6849 23.6154 16.2877 23.6154 11.9041C23.6154 7.72603 20.2231 4.36986 16 4.36986Z" fill="#FF9915"></path>
             <path d="M16 16C13.76 16 12 14.24 12 12C12 9.76 13.76 8 16 8C18.24 8 20 9.76 20 12C20 14.24 18.24 16 16 16ZM16 9.6C14.64 9.6 13.6 10.64 13.6 12C13.6 13.36 14.64 14.4 16 14.4C17.36 14.4 18.4 13.36 18.4 12C18.4 10.64 17.36 9.6 16 9.6Z" fill="#FF9915"></path>
-          </svg></a><a class="footer__contacts__link-black">Политика обработки персональных данных
+          </svg></a><a class="footer__contacts__link-black" href="#">Политика обработки персональных данных
           <svg fill="none" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
             <path d="M17.0435 5H9.3913C8.62296 5 8 5.61566 8 6.375V25.625C8 26.3843 8.62296 27 9.3913 27H22.6087C23.377 27 24 26.3843 24 25.625V11.8753L17.0435 5ZM22.6087 12.4449V12.5625H16.3478V6.375H16.4675L22.6087 12.4449ZM9.3913 25.625V6.375H14.9565V13.9375H22.6087V25.625H9.3913Z" fill="#FF9915"></path>
           </svg></a>
@@ -850,7 +850,7 @@
           <textarea id="question" type="text" placeholder="Комментарий к заявке" name="comment"></textarea>
         </label>
         <div class="popup-feedback__form__footer">
-          <p class="popup-feedback__form__description">Нажимая кнопку, вы соглашаетесь на обработку персональных данных, согласно <a class="popup-feedback__form__description-link">политике конфиденциальности</a></p>
+          <p class="popup-feedback__form__description">Нажимая кнопку, вы соглашаетесь на обработку персональных данных, согласно <a href="#" class="popup-feedback__form__description-link">политике конфиденциальности</a></p>
           <button class="popup-feedback__form__btn">Отправить</button>
         </div>
       </form>
@@ -866,7 +866,7 @@
   </div>
 </div>
 <div class="connection">
-  <button class="connection__btn">
+  <button class="connection__btn" name="connection">
     <svg class="connection__icon connection__icon__close" fill="none" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" width="18" height="18">
       <g clip-path="url(#clip0_157_2894)">
         <path d="M1 1.00031L17 17M1 16.9997L17 1" stroke="white" stroke-miterlimit="10" stroke-width="1.5"></path>
