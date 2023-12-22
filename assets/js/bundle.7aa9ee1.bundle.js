@@ -35,7 +35,7 @@ var smooth_scroll_polyfills_min_default = /*#__PURE__*/__webpack_require__.n(smo
 
 function smoothScroll() {
   new (smooth_scroll_polyfills_min_default())('a[href*="#"]', {
-    speed: 1500,
+    speed: 800,
     after: function after() {
       smooth_scroll_$("body").css("overflow", "");
     }
@@ -427,4 +427,4 @@ $(function () {
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=bundle.ed0f3a0.bundle.js.map
+//# sourceMappingURL=bundle.7aa9ee1.bundle.js.map
