@@ -31,9 +31,13 @@
       else window.onload = autorun;
       
     </script>
-  <link href="/assets/css/bundle.339ea6e.bundle.css" rel="stylesheet"></head>
+  <link href="/assets/css/bundle.fbe3501.bundle.css" rel="stylesheet"></head>
   <body>
     <div class="render"></div>
+    <div class="loader"><svg width="42" height="37" viewBox="0 0 42 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.3939 3L2.84037 31.9634C2.03256 33.2963 2.9922 35 4.55076 35H37.8538C39.3185 35 40.2864 33.4775 39.6648 32.1512L34.6709 21.4962C34.3416 20.7937 33.6358 20.345 32.8599 20.345H21.404" stroke="#F7D90B" stroke-width="4" stroke-linecap="square"/>
+</svg>
+    </div>
 <header class="header">
   <div class="wrapper">
     <div class="header__wrapper">
@@ -117,7 +121,7 @@
           <div class="plans__footer">
             <ul>
               <li>Безлимитное посещение</li>
-              <li>Бесплатная тренировка с тренером</li>
+              <li>Бесплатная тренировка с&nbsp;тренером</li>
               <li>Безлимитные групповые тренировки</li>
             </ul><a class="plans__button" href="/order/" data-plan-id="1">Купить</a>
           </div>
@@ -132,7 +136,7 @@
           <div class="plans__footer">
             <ul>
               <li>Безлимитное посещение</li>
-              <li>Бесплатная тренировка с тренером</li>
+              <li>Бесплатная тренировка с&nbsp;тренером</li>
               <li>Безлимитные групповые тренировки</li>
             </ul><a class="plans__button" href="/order/" data-plan-id="2">Купить</a>
           </div>
@@ -147,7 +151,7 @@
           <div class="plans__footer">
             <ul>
               <li>Безлимитное посещение</li>
-              <li>Бесплатная тренировка с тренером</li>
+              <li>Бесплатная тренировка с&nbsp;тренером</li>
               <li>Безлимитные групповые тренировки</li>
             </ul><a class="plans__button" href="/order/" data-plan-id="3">Купить</a>
           </div>
@@ -162,7 +166,7 @@
           <div class="plans__footer">
             <ul>
               <li>Безлимитное посещение</li>
-              <li>Бесплатная тренировка с тренером</li>
+              <li>Бесплатная тренировка с&nbsp;тренером</li>
               <li>Безлимитные групповые тренировки</li>
             </ul><a class="plans__button" href="/order/" data-plan-id="4">Купить</a>
           </div>
@@ -433,15 +437,15 @@
       <form class="footer__form" action="#">
         <label class="footer__label">
           <input class="footer__input" type="text" placeholder="" name="name" required>
-          <p>ИМЯ</p>
+          <p>Имя</p>
         </label>
         <label class="footer__label">
           <input class="footer__input" type="tel" placeholder="" name="phone" required>
-          <p>ТЕЛЕФОН</p>
+          <p>Телефон</p>
         </label>
         <label class="footer__label">
           <input class="footer__input" type="email" placeholder="" name="email" required>
-          <p>EMAIL</p>
+          <p>Email</p>
         </label>
         <label class="footer__policy">
           <input type="checkbox" checked name="policy" required><span>Я соглашаюсь с условиями обработки персональных данных</span>
@@ -554,5 +558,66 @@
     </div>
   </div>
 </div>
-  <script defer src="/assets/js/vendor.d674eb9.bundle.js"></script><script defer src="/assets/js/bundle.d474320.bundle.js"></script></body>
+<div class="schedule-filters schedule-filters-mob">
+  <div class="wrapper">
+    <div class="schedule-filters__wrapper">
+      <h6>Фильтры</h6>
+      <label class="schedule__filter">
+        <input class="schedule__input" type="text" name="coach">
+        <div class="schedule__selected schedule__filter-coach">
+          <div class="schedule__value" data-text="Тренер">Тренер</div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 9L12 15L18 9" stroke="#5C5C5C" stroke-width="1.5"/>
+</svg>
+        </div>
+        <div class="schedule__list"> 
+          <div class="schedule__list__item">Тренер 1</div>
+          <div class="schedule__list__item">Тренер 2</div>
+        </div>
+      </label>
+      <label class="schedule__filter schedule__filter-title">
+        <input class="schedule__input" type="text" name="training">
+        <div class="schedule__selected">
+          <div class="schedule__value" data-text="Занятие">Занятие</div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 9L12 15L18 9" stroke="#5C5C5C" stroke-width="1.5"/>
+</svg>
+        </div>
+        <div class="schedule__list"> 
+          <div class="schedule__list__item">Занятие 1</div>
+          <div class="schedule__list__item">Занятие 2</div>
+        </div>
+      </label>
+      <label class="schedule__filter schedule__filter-time">
+        <input class="schedule__input" type="text" name="coach">
+        <div class="schedule__selected">
+          <div class="schedule__value" data-text="Время начала">Время начала</div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 9L12 15L18 9" stroke="#5C5C5C" stroke-width="1.5"/>
+</svg>
+        </div>
+        <div class="schedule__list"> 
+          <div class="schedule__list__item">10:00 - 11:00</div>
+          <div class="schedule__list__item">11:00 - 12:00</div>
+        </div>
+      </label>
+      <label class="schedule__filter schedule__filter-type">
+        <input class="schedule__input" type="text" name="coach">
+        <div class="schedule__selected">
+          <div class="schedule__value" data-text="Платные и бесплатные">Платные и бесплатные</div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 9L12 15L18 9" stroke="#5C5C5C" stroke-width="1.5"/>
+</svg>
+        </div>
+        <div class="schedule__list"> 
+          <div class="schedule__list__item">Платные</div>
+          <div class="schedule__list__item">Бесплатные</div>
+        </div>
+      </label>
+    </div>
+  </div>
+  <button class="schedule__clear" type="button">Очистить фильтр</button>
+  <button class="schedule__close" type="button">
+     <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.5 6L6.5 18M6.5 6L18.5 18" stroke="#020202" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+  </button>
+</div>
+  <script defer src="/assets/js/vendor.d674eb9.bundle.js"></script><script defer src="/assets/js/bundle.73c4f3e.bundle.js"></script></body>
 </html>
