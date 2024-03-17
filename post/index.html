@@ -32,14 +32,14 @@
       Похоже у вас отключён Javascript, поэтому вы видете это сообщение.
       
     </noscript>
-  <script defer src="/assets/js/bundle.a8cfb6d.bundle.js"></script><link href="/assets/css/12.1eac2a1.bundle.css" rel="stylesheet"><link href="/assets/css/bundle.6b5ddc5.bundle.css" rel="stylesheet"></head>
+  <script defer src="/assets/js/vendor.629e75e.bundle.js"></script><script defer src="/assets/js/bundle.84727e3.bundle.js"></script><link href="/assets/css/793.629e75e.bundle.css" rel="stylesheet"><link href="/assets/css/bundle.475e136.bundle.css" rel="stylesheet"></head>
   <body>
     <div class="render"></div>
 <header class="header">
   <div class="wrapper">
-    <div class="header__wrapper"><a class="header__logo" href="/"> <img src="/assets/images/header/logo.png" alt="logo"></a><a class="header__logo header__logo-white" href="/"> <img src="/assets/images/header/logo-white.png" alt="logo"></a>
+    <div class="header__wrapper"><a class="header__logo reveal-showed-down" href="/"><img src="/assets/images/header/logo.png" alt="logo"></a><a class="header__logo header__logo-white reveal-showed-down" href="/"> <img src="/assets/images/header/logo-white.png" alt="logo"></a>
       <nav class="header__links">
-        <div class="header__catalog header__link"> <a href="#">КАТАЛОГ</a>
+        <div class="header__catalog header__link"><a class="reveal-showed-down" href="#">КАТАЛОГ</a>
 <div class="header-desktop">
 <nav class="nav">
   <div class="nav__block">
@@ -109,7 +109,7 @@
 </nav>
 </div>
         </div>
-        <div class="header__catalog header__link"> <span>FUSION</span>
+        <div class="header__catalog header__link"><span class="reveal-showed-down">FUSION</span>
 <div class="header-desktop">
 <nav class="nav">
   <div class="nav__block">
@@ -179,7 +179,7 @@
 </nav>
 </div>
         </div>
-        <div class="header__catalog header__link"> <span>PROWAY</span>
+        <div class="header__catalog header__link"> <span class="reveal-showed-down">PROWAY</span>
 <div class="header-desktop">
 <nav class="nav">
   <div class="nav__block">
@@ -249,7 +249,7 @@
 </nav>
 </div>
         </div>
-        <div class="header__catalog header__link"> <span>SALON TOTAL</span>
+        <div class="header__catalog header__link"> <span class="reveal-showed-down">SALON TOTAL</span>
 <div class="header-desktop">
 <nav class="nav">
   <div class="nav__block">
@@ -319,7 +319,7 @@
 </nav>
 </div>
         </div>
-        <div class="header__catalog header__link"> <span>PHARM THERAPY</span>
+        <div class="header__catalog header__link"> <span class="reveal-showed-down">PHARM THERAPY</span>
 <div class="header-desktop">
 <nav class="nav">
   <div class="nav__block">
@@ -389,11 +389,62 @@
 </nav>
 </div>
         </div>
-        <div class="header__link"><a href="#">Новости</a></div>
-        <div class="header__link"> <a href="#">Где купить</a></div>
+        <div class="header__link"><a class="reveal-showed-down" href="#">Новости</a></div>
+        <div class="header__link"> <a class="reveal-showed-down" href="#">Где купить</a></div>
       </nav>
       <div class="header__menu"></div>
-      <button class="header__search" type="button"><img src="/assets/images/header/search.svg" alt="search"></button>
+      <form class="header__form" action="#" id="search-form">
+        <label class="header__label">
+          <input class="header__input" type="text" disabled>
+          <button class="search-button" type="button"> <img class="header__img" src="/assets/images/header/search.svg" alt="search"></button>
+        </label>
+<div class="search-popup">
+  <div class="search-popup__wrapper">
+    <div class="search-popup__items">
+      <div class="search-popup__item">
+        <div class="search-popup__img"><img src="/assets/images/product-card/1.png" alt="product"></div>
+        <div class="search-popup__content">
+          <div class="search-popup__brand">Salon total</div>
+          <div class="search-popup__name">BLOND EXPLODION SHAMPOO</div>
+          <div class="search-popup__amount">300 ml</div>
+        </div>
+      </div>
+      <div class="search-popup__item">
+        <div class="search-popup__img"><img src="/assets/images/product-card/1.png" alt="product"></div>
+        <div class="search-popup__content">
+          <div class="search-popup__brand">Salon total</div>
+          <div class="search-popup__name">BLOND EXPLODION SHAMPOO</div>
+          <div class="search-popup__amount">300 ml</div>
+        </div>
+      </div>
+      <div class="search-popup__item">
+        <div class="search-popup__img"><img src="/assets/images/product-card/1.png" alt="product"></div>
+        <div class="search-popup__content">
+          <div class="search-popup__brand">Salon total</div>
+          <div class="search-popup__name">BLOND EXPLODION SHAMPOO</div>
+          <div class="search-popup__amount">300 ml</div>
+        </div>
+      </div>
+      <div class="search-popup__item">
+        <div class="search-popup__img"><img src="/assets/images/product-card/1.png" alt="product"></div>
+        <div class="search-popup__content">
+          <div class="search-popup__brand">Salon total</div>
+          <div class="search-popup__name">BLOND EXPLODION SHAMPOO</div>
+          <div class="search-popup__amount">300 ml</div>
+        </div>
+      </div>
+      <div class="search-popup__item">
+        <div class="search-popup__img"><img src="/assets/images/product-card/1.png" alt="product"></div>
+        <div class="search-popup__content">
+          <div class="search-popup__brand">Salon total</div>
+          <div class="search-popup__name">BLOND EXPLODION SHAMPOO</div>
+          <div class="search-popup__amount">300 ml</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </form>
     </div>
   </div>
 </header>
@@ -403,10 +454,57 @@
       <div class="header-mobile__controls"><a class="header-mobile__logo" href="/"> <img src="/assets/images/header/logo.png" alt="logo"></a>
         <button class="header-mobile__close" type="button"><img src="/assets/images/header/close-24.svg" alt="close"></button>
       </div>
-      <form class="header-mobile__form" action="#">
-        <div class="header-mobile__input"><img class="header-mobile__icon" src="/assets/images/header/search.svg" alt="search">
-          <input type="search" placeholder="Поиск..." name="search">
+      <form class="header__form header-mobile__form" action="#">
+        <label class="header-mobile__label">
+          <button><img class="header-mobile__icon" src="/assets/images/header/search.svg" alt="search"></button>
+          <input class="header-mobile__input" type="search" placeholder="Поиск..." name="search">
+        </label>
+<div class="search-popup">
+  <div class="search-popup__wrapper">
+    <div class="search-popup__items">
+      <div class="search-popup__item">
+        <div class="search-popup__img"><img src="/assets/images/product-card/1.png" alt="product"></div>
+        <div class="search-popup__content">
+          <div class="search-popup__brand">Salon total</div>
+          <div class="search-popup__name">BLOND EXPLODION SHAMPOO</div>
+          <div class="search-popup__amount">300 ml</div>
         </div>
+      </div>
+      <div class="search-popup__item">
+        <div class="search-popup__img"><img src="/assets/images/product-card/1.png" alt="product"></div>
+        <div class="search-popup__content">
+          <div class="search-popup__brand">Salon total</div>
+          <div class="search-popup__name">BLOND EXPLODION SHAMPOO</div>
+          <div class="search-popup__amount">300 ml</div>
+        </div>
+      </div>
+      <div class="search-popup__item">
+        <div class="search-popup__img"><img src="/assets/images/product-card/1.png" alt="product"></div>
+        <div class="search-popup__content">
+          <div class="search-popup__brand">Salon total</div>
+          <div class="search-popup__name">BLOND EXPLODION SHAMPOO</div>
+          <div class="search-popup__amount">300 ml</div>
+        </div>
+      </div>
+      <div class="search-popup__item">
+        <div class="search-popup__img"><img src="/assets/images/product-card/1.png" alt="product"></div>
+        <div class="search-popup__content">
+          <div class="search-popup__brand">Salon total</div>
+          <div class="search-popup__name">BLOND EXPLODION SHAMPOO</div>
+          <div class="search-popup__amount">300 ml</div>
+        </div>
+      </div>
+      <div class="search-popup__item">
+        <div class="search-popup__img"><img src="/assets/images/product-card/1.png" alt="product"></div>
+        <div class="search-popup__content">
+          <div class="search-popup__brand">Salon total</div>
+          <div class="search-popup__name">BLOND EXPLODION SHAMPOO</div>
+          <div class="search-popup__amount">300 ml</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
       </form>
     </div>
     <div class="header-mobile__menu">
@@ -554,18 +652,16 @@
   </div>
 </div>
     <main>
-          <div class="breadcrumbs">
+          <div class="breadcrumbs reveal-showed-up">
             <div class="wrapper">
               <ul class="breadcrumbs__list">
-                <li> <a href="/">Главная</a></li>
-                <li><span>/</span><a href="/news">Новости</a></li><span>/</span>
-                <li>
-                  <p>Темно-русый цвет волос: особенности и оттенки палитры</p>
-                </li>
+                <li> <a href="/">Главная</a></li><span>/</span>
+                <li><a href="/news">Новости</a></li><span>/</span>
+                <li>Темно-русый цвет волос: особенности и оттенки палитры</li>
               </ul>
             </div>
           </div>
-          <div class="heading">
+          <div class="heading reveal-showed-up">
             <div class="wrapper">
               <div class="heading__wrapper">
                 <h1 class="heading__title">Темно-русый цвет волос: особенности и оттенки палитры</h1>
@@ -575,28 +671,28 @@
 <div class="post">
   <div class="wrapper"> 
     <div class="post__wrapper">
-      <div class="post__banner"><img src="/assets/images/post/banner.png" alt="banner" loading="lazy"></div>
+      <div class="post__banner reveal-showed-up"><img src="/assets/images/post/banner.png" alt="banner" loading="lazy"></div>
       <div class="post__container">
-        <div class="post__menu">
+        <div class="post__menu reveal-showed-up">
           <h5>Содержание</h5>
           <div class="post__links"><a href="#">Как выглядит темно-русый цвет волос?</a><a href="#">Палитра темно-русых оттенков</a><a href="#">Кому подойдут темно-русые волосы?</a><a href="#">Окрашивание в темно-русый в домашних условиях</a></div>
         </div>
         <div class="post__content">
-          <p>Еще не блонд, но уже не шатен — темно-русый цвет волос где-то посередине. Промежуточное положение как раз и делает его особенным, но в то же время практичным. Почему — рассказываем в новом материале.</p>
-          <div class="post__img"><img src="/assets/images/post/1.png" alt="post-image" loading="lazy"></div>
-          <p>Темно-русые волосы ассоциируются в первую очередь с героинями русской литературной классики, толстыми косами, скромностью и уютом. Но этот красивый природный оттенок на рубеже XX–XXI веков отошел на задний план с популяризацией кинематографа и иконизацией звезд, носивших пепельный, платиновый блонд.</p>
-          <h2>Алексей Горбатюк, парикмахер-стилист, независимый эксперт бренда </h2>
-          <p>Натуральный темно-русый цвет волос на фото выше выглядит по-разному. Сама природа смешивает пигменты зачастую в удивительных комбинациях, а у производителей красок возможностей еще больше. К тому же многое зависит от исходного цвета волос: на светло-русом и на черном краска всегда дает разные эффекты.</p>
-          <div class="post__img"><img src="/assets/images/post/2.png" alt="post-image" loading="lazy"></div>
-          <p>Темно-русый похож на светло-каштановый, но колористы разделяют эти палитры. Русая все же немного светлее, что упрощает <a href="#">поиски своего оттенка</a>: выбрать подходящий вариант для женщины с кожей очень светлого или, наоборот, очень смуглого тона несложно и без помощи колориста.</p>
-          <h2>Алексей Горбатюк, парикмахер-стилист, независимый эксперт бренда</h2>
-          <p>Натуральный темно-русый цвет волос на фото выше выглядит по-разному. Сама природа смешивает пигменты зачастую в удивительных комбинациях, а у производителей красок возможностей еще больше. К тому же многое зависит от исходного цвета волос: на светло-русом и на черном краска всегда дает разные эффекты.</p>
+          <p class="reveal-showed-up">Еще не блонд, но уже не шатен — темно-русый цвет волос где-то посередине. Промежуточное положение как раз и делает его особенным, но в то же время практичным. Почему — рассказываем в новом материале.</p>
+          <div class="post__img reveal-showed-up"><img src="/assets/images/post/1.png" alt="post-image" loading="lazy"></div>
+          <p class="reveal-showed-up">Темно-русые волосы ассоциируются в первую очередь с героинями русской литературной классики, толстыми косами, скромностью и уютом. Но этот красивый природный оттенок на рубеже XX–XXI веков отошел на задний план с популяризацией кинематографа и иконизацией звезд, носивших пепельный, платиновый блонд.</p>
+          <h2 class="reveal-showed-up">Алексей Горбатюк, парикмахер-стилист, независимый эксперт бренда </h2>
+          <p class="reveal-showed-up">Натуральный темно-русый цвет волос на фото выше выглядит по-разному. Сама природа смешивает пигменты зачастую в удивительных комбинациях, а у производителей красок возможностей еще больше. К тому же многое зависит от исходного цвета волос: на светло-русом и на черном краска всегда дает разные эффекты.</p>
+          <div class="post__img reveal-showed-up"><img src="/assets/images/post/2.png" alt="post-image" loading="lazy"></div>
+          <p class="reveal-showed-up">Темно-русый похож на светло-каштановый, но колористы разделяют эти палитры. Русая все же немного светлее, что упрощает <a href="#">поиски своего оттенка</a>: выбрать подходящий вариант для женщины с кожей очень светлого или, наоборот, очень смуглого тона несложно и без помощи колориста.</p>
+          <h2 class="reveal-showed-up">Алексей Горбатюк, парикмахер-стилист, независимый эксперт бренда</h2>
+          <p class="reveal-showed-up">Натуральный темно-русый цвет волос на фото выше выглядит по-разному. Сама природа смешивает пигменты зачастую в удивительных комбинациях, а у производителей красок возможностей еще больше. К тому же многое зависит от исходного цвета волос: на светло-русом и на черном краска всегда дает разные эффекты.</p>
           <div class="post__imges">
-            <div class="post__img"><img src="/assets/images/post/3.png" alt="post-image" loading="lazy"></div>
-            <div class="post__img"><img src="/assets/images/post/4.png" alt="post-image" loading="lazy"></div>
+            <div class="post__img reveal-showed-up"><img src="/assets/images/post/3.png" alt="post-image" loading="lazy"></div>
+            <div class="post__img reveal-showed-up"><img src="/assets/images/post/4.png" alt="post-image" loading="lazy"></div>
           </div>
-          <p>Темно-русый похож на светло-каштановый, но колористы разделяют эти палитры. Русая все же немного светлее, что упрощает <a href="#">поиски своего оттенка</a>: выбрать подходящий вариант для женщины с кожей очень светлого или, наоборот, очень смуглого тона несложно и без помощи колориста.</p>
-          <div class="post__socials"><a href="#" target="_blank">
+          <p class="reveal-showed-up">Темно-русый похож на светло-каштановый, но колористы разделяют эти палитры. Русая все же немного светлее, что упрощает <a href="#">поиски своего оттенка</a>: выбрать подходящий вариант для женщины с кожей очень светлого или, наоборот, очень смуглого тона несложно и без помощи колориста.</p>
+          <div class="post__socials reveal-showed-up"><a href="#" target="_blank">
                <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_485_5620)"><path d="M16.5 0C7.38761 0 0 7.38727 0 16.5C0 25.6127 7.38761 33 16.5 33C25.6124 33 33 25.6127 33 16.5C33 7.38727 25.6124 0 16.5 0ZM24.8697 18.2845C25.6387 19.0357 26.4523 19.7426 27.1427 20.5714C27.4486 20.938 27.7369 21.3172 27.9563 21.7435C28.2696 22.3515 27.9867 23.0183 27.4425 23.0544L24.0621 23.0538C23.1891 23.126 22.4944 22.7739 21.9086 22.177C21.4411 21.7013 21.0072 21.1933 20.5569 20.7014C20.3729 20.4995 20.1791 20.3094 19.9482 20.1599C19.4874 19.8601 19.087 19.9519 18.823 20.4333C18.5539 20.9232 18.4925 21.466 18.4668 22.0113C18.43 22.8083 18.1897 23.0166 17.3899 23.0541C15.681 23.1341 14.0595 22.8748 12.5525 22.0133C11.223 21.2534 10.194 20.1808 9.29739 18.9665C7.55135 16.5993 6.21413 14.0011 5.01262 11.3284C4.74221 10.7264 4.94004 10.4044 5.60409 10.3919C6.70736 10.3706 7.81062 10.3733 8.91388 10.3909C9.36288 10.398 9.65997 10.6549 9.83248 11.0785C10.4287 12.5454 11.1596 13.941 12.0755 15.2354C12.3196 15.5801 12.5687 15.9237 12.9235 16.1671C13.3151 16.4359 13.6136 16.3471 13.7982 15.9099C13.9164 15.632 13.9674 15.335 13.993 15.0372C14.0808 14.0173 14.0913 12.9978 13.9393 11.982C13.8448 11.3463 13.4873 10.9357 12.8536 10.8156C12.5309 10.7545 12.5781 10.6349 12.7351 10.4506C13.0076 10.1319 13.2628 9.93477 13.7729 9.93477L17.5921 9.9341C18.1941 10.0523 18.3291 10.3223 18.4108 10.9287L18.4142 15.1729C18.4071 15.4075 18.532 16.103 18.9533 16.2566C19.2909 16.368 19.5137 16.0972 19.7156 15.8835C20.6315 14.9116 21.2841 13.7645 21.8685 12.5771C22.1264 12.0535 22.3488 11.5117 22.5649 10.9688C22.7256 10.5674 22.9754 10.3699 23.4285 10.3767L27.1063 10.3811C27.2146 10.3811 27.3247 10.3821 27.432 10.4007C28.0519 10.5067 28.2217 10.7734 28.0299 11.378C27.7281 12.328 27.1417 13.1193 26.5685 13.9127C25.954 14.7621 25.2988 15.5817 24.6904 16.4348C24.1314 17.2147 24.1756 17.6073 24.8697 18.2845Z" fill="#262721"/></g><defs><clipPath id="clip0_485_5620"><rect width="33" height="33" fill="white"/></clipPath></defs></svg></a></div>
         </div>
       </div>
@@ -606,23 +702,23 @@
       <div class="post-others">
         <div class="wrapper">
           <div class="post-others__wrapper">
-            <h2>Вам может понравиться</h2>
+            <h2 class="reveal-showed-up">Вам может понравиться</h2>
             <div class="swiper swiper-others">
               <div class="swiper-wrapper">
                 <div class="swiper-slide"><a class="news-post__item" href="#">
-                          <div class="news-post__img"><img src="/assets/images/news/7.png" alt="news-preview" loading="lazy"></div>
-                          <div class="news-post__title">&quot;Время новых&quot;: косметика для волос Concept Fusion</div>
-                          <div class="news-post__text">Салонный уход можно организовать, не выходя из дома. Пандемия подтолкнула предпринимателей из Москвы открыть производство косметики для волос.</div></a>
+                          <div class="news-post__img reveal-showed-up"><img src="/assets/images/news/7.png" alt="news-preview" loading="lazy"></div>
+                          <div class="news-post__title reveal-showed-up">&quot;Время новых&quot;: косметика для волос Concept Fusion</div>
+                          <div class="news-post__text reveal-showed-up">Салонный уход можно организовать, не выходя из дома. Пандемия подтолкнула предпринимателей из Москвы открыть производство косметики для волос.</div></a>
                 </div>
                 <div class="swiper-slide"><a class="news-post__item" href="#">
-                          <div class="news-post__img"><img src="/assets/images/news/8.png" alt="news-preview" loading="lazy"></div>
-                          <div class="news-post__title">&quot;Время новых&quot;: косметика для волос Concept Fusion</div>
-                          <div class="news-post__text">Салонный уход можно организовать, не выходя из дома. Пандемия подтолкнула предпринимателей из Москвы открыть производство косметики для волос.</div></a>
+                          <div class="news-post__img reveal-showed-up"><img src="/assets/images/news/8.png" alt="news-preview" loading="lazy"></div>
+                          <div class="news-post__title reveal-showed-up">&quot;Время новых&quot;: косметика для волос Concept Fusion</div>
+                          <div class="news-post__text reveal-showed-up">Салонный уход можно организовать, не выходя из дома. Пандемия подтолкнула предпринимателей из Москвы открыть производство косметики для волос.</div></a>
                 </div>
                 <div class="swiper-slide"><a class="news-post__item" href="#">
-                          <div class="news-post__img"><img src="/assets/images/news/9.png" alt="news-preview" loading="lazy"></div>
-                          <div class="news-post__title">&quot;Время новых&quot;: косметика для волос Concept Fusion</div>
-                          <div class="news-post__text">Салонный уход можно организовать, не выходя из дома. Пандемия подтолкнула предпринимателей из Москвы открыть производство косметики для волос.</div></a>
+                          <div class="news-post__img reveal-showed-up"><img src="/assets/images/news/9.png" alt="news-preview" loading="lazy"></div>
+                          <div class="news-post__title reveal-showed-up">&quot;Время новых&quot;: косметика для волос Concept Fusion</div>
+                          <div class="news-post__text reveal-showed-up">Салонный уход можно организовать, не выходя из дома. Пандемия подтолкнула предпринимателей из Москвы открыть производство косметики для волос.</div></a>
                 </div>
               </div>
             </div>
@@ -631,13 +727,13 @@
       </div>
 <section class="post-navigation">
   <div class="wrapper">
-    <div class="post-navigation__wrapper"><a class="post-navigation__item" href="">
+    <div class="post-navigation__wrapper"><a class="post-navigation__item reveal-showed-up" href="#">
         <button class="post-navigation__button" type="button"><svg width="26" height="8" viewBox="0 0 26 8" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.8"><path d="M0.646446 4.35355C0.451185 4.15829 0.451185 3.84171 0.646446 3.64645L3.82843 0.464466C4.02369 0.269204 4.34027 0.269204 4.53553 0.464466C4.7308 0.659728 4.7308 0.976311 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.7308 7.02369 4.7308 7.34027 4.53553 7.53553C4.34027 7.7308 4.02369 7.7308 3.82843 7.53553L0.646446 4.35355ZM26 4.5L1 4.5V3.5L26 3.5V4.5Z" fill="#A9A9A9" fill-opacity="0.51"/></g></svg></button>
         <div class="post-navigation__content">
           <div class="post-navigation__text">Предыдущая статья</div>
           <div class="post-navigation__title">Окрашивание</div>
-        </div></a><a class="post-navigation__item post-navigation__item-reverse active" href="#">
-        <button class="post-navigation__button" type="button"><svg width="26" height="8" viewBox="0 0 26 8" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.8"><path d="M0.646446 4.35355C0.451185 4.15829 0.451185 3.84171 0.646446 3.64645L3.82843 0.464466C4.02369 0.269204 4.34027 0.269204 4.53553 0.464466C4.7308 0.659728 4.7308 0.976311 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.7308 7.02369 4.7308 7.34027 4.53553 7.53553C4.34027 7.7308 4.02369 7.7308 3.82843 7.53553L0.646446 4.35355ZM26 4.5L1 4.5V3.5L26 3.5V4.5Z" fill="#A9A9A9" fill-opacity="0.51"/></g></svg></button>
+        </div></a><a class="post-navigation__item post-navigation__item-reverse active reveal-showed-up" href="#">
+        <button class="post-navigation__button" type="button"><svg width="26" height="8" viewBox="0 0 26 8" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.8"><path d="M25.3536 3.64645C25.5488 3.84171 25.5488 4.15829 25.3536 4.35355L22.1716 7.53553C21.9763 7.7308 21.6597 7.7308 21.4645 7.53553C21.2692 7.34027 21.2692 7.02369 21.4645 6.82843L24.2929 4L21.4645 1.17157C21.2692 0.976311 21.2692 0.659728 21.4645 0.464466C21.6597 0.269204 21.9763 0.269204 22.1716 0.464466L25.3536 3.64645ZM0 3.5L25 3.5V4.5L0 4.5L0 3.5Z" fill="#A9A9A9" fill-opacity="0.51"/></g></svg></button>
         <div class="post-navigation__content">
           <div class="post-navigation__text">Следующая статья</div>
           <div class="post-navigation__title">Профессиональный уход для салонов</div>
@@ -645,43 +741,51 @@
   </div>
 </section>
     </main>
-    <footer class="footer">
+    <footer class="footer reveal-drawed">
+      <div class="wrapper"> <a class="footer__back reveal-showed" href="#top"><span>Наверх</span><svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.8">
+<path d="M4.35355 0.646446C4.15829 0.451184 3.84171 0.451184 3.64645 0.646446L0.464467 3.82843C0.269204 4.02369 0.269204 4.34027 0.464467 4.53553C0.659729 4.7308 0.976311 4.7308 1.17157 4.53553L4 1.70711L6.82843 4.53553C7.02369 4.7308 7.34027 4.7308 7.53553 4.53553C7.7308 4.34027 7.7308 4.02369 7.53553 3.82843L4.35355 0.646446ZM4.5 15L4.5 1L3.5 1L3.5 15L4.5 15Z" fill="#262721"/>
+</g>
+</svg></a></div>
       <div class="wrapper">
         <div class="footer__wrapper">
-          <div class="footer-mailing"><a class="footer-mailing__img" href="/"> <img src="/assets/images/footer/logo.png" alt="logo-image" loading="lazy"></a><span>Подпишитесь <br> на нашу рассылку</span>
-            <form class="footer-mailing__form" action="#">
+          <div class="footer-mailing"><a class="footer-mailing__img reveal-showed" href="/"> <img src="/assets/images/footer/logo.png" alt="logo-image" loading="lazy"></a><span class="reveal-showed">Подпишитесь <br> на нашу рассылку</span>
+            <form class="footer-mailing__form reveal-showed" action="#">
               <div class="footer-mailing__input"><svg width="26" height="8" viewBox="0 0 26 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.3536 4.35355C25.5488 4.15829 25.5488 3.84171 25.3536 3.64645L22.1716 0.464466C21.9763 0.269204 21.6597 0.269204 21.4645 0.464466C21.2692 0.659728 21.2692 0.976311 21.4645 1.17157L24.2929 4L21.4645 6.82843C21.2692 7.02369 21.2692 7.34027 21.4645 7.53553C21.6597 7.7308 21.9763 7.7308 22.1716 7.53553L25.3536 4.35355ZM0 4.5L25 4.5V3.5L0 3.5L0 4.5Z" fill="#262721"/></svg>
                 <input type="email" placeholder="Ваш e-mail" name="email">
               </div>
             </form>
           </div>
-          <nav class="footer__links"><a class="footer__link" href="#">Каталог</a><a class="footer__link" href="#">FUSION</a><a class="footer__link" href="#">PROWAY</a><a class="footer__link" href="#">SALON TOTAL</a><a class="footer__link" href="#">PHARM THERAPY</a><a class="footer__link" href="#">Новости</a><a class="footer__link" href="#">Где купить</a></nav>
+          <nav class="footer__links"><a class="footer__link reveal-showed" href="#">Каталог</a><a class="footer__link reveal-showed" href="#">FUSION</a><a class="footer__link reveal-showed" href="#">PROWAY</a><a class="footer__link reveal-showed" href="#">SALON TOTAL</a><a class="footer__link reveal-showed" href="#">PHARM THERAPY</a><a class="footer__link reveal-showed" href="#">Новости</a><a class="footer__link reveal-showed" href="#">Где купить</a></nav>
           <div class="footer-callback">
-            <h2>Cвязаться <br> с нами</h2>
+            <h2 class="reveal-showed">Cвязаться <br> с нами</h2>
             <form class="footer-callback__form" action="#">
               <div class="footer-callback__inputs">
-                <div class="footer-callback__input">
-                  <input type="text" placeholder="Имя" name="name">
+                <div class="footer-callback__input reveal-showed">
+                  <input type="text" placeholder="Имя" name="name" required>
                 </div>
-                <div class="footer-callback__input">
-                  <input type="tel" placeholder="Телефон" name="tel">
+                <div class="footer-callback__input reveal-showed">
+                  <input type="tel" placeholder="Телефон" name="phone" required>
                 </div>
               </div>
-              <div class="footer-callback__text">Отправляя данные,вы соглашаетесь <br> с <a href="#" target="_blank">Правилами обработки персональных данных</a></div>
-              <button class="footer-callback__button" type="submit">
-                    <div class="button undefined"><span>Отправить</span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.6746 10.0002L16.9246 4.75849C17.0815 4.60157 17.1697 4.38874 17.1697 4.16682C17.1697 3.9449 17.0815 3.73207 16.9246 3.57515C16.7677 3.41823 16.5549 3.33008 16.333 3.33008C16.111 3.33008 15.8982 3.41823 15.7413 3.57515L10.4996 8.82515L5.25796 3.57515C5.10104 3.41823 4.88821 3.33008 4.66629 3.33008C4.44437 3.33008 4.23154 3.41823 4.07462 3.57515C3.9177 3.73207 3.82955 3.9449 3.82955 4.16682C3.82955 4.38874 3.9177 4.60157 4.07462 4.75849L9.32462 10.0002L4.07462 15.2418C3.99652 15.3193 3.93452 15.4115 3.89221 15.513C3.84991 15.6146 3.82812 15.7235 3.82812 15.8335C3.82812 15.9435 3.84991 16.0524 3.89221 16.154C3.93452 16.2555 3.99652 16.3477 4.07462 16.4252C4.15209 16.5033 4.24426 16.5653 4.34581 16.6076C4.44736 16.6499 4.55628 16.6717 4.66629 16.6717C4.7763 16.6717 4.88522 16.6499 4.98677 16.6076C5.08832 16.5653 5.18049 16.5033 5.25796 16.4252L10.4996 11.1752L15.7413 16.4252C15.8188 16.5033 15.9109 16.5653 16.0125 16.6076C16.114 16.6499 16.2229 16.6717 16.333 16.6717C16.443 16.6717 16.5519 16.6499 16.6534 16.6076C16.755 16.5653 16.8472 16.5033 16.9246 16.4252C17.0027 16.3477 17.0647 16.2555 17.107 16.154C17.1493 16.0524 17.1711 15.9435 17.1711 15.8335C17.1711 15.7235 17.1493 15.6146 17.107 15.513C17.0647 15.4115 17.0027 15.3193 16.9246 15.2418L11.6746 10.0002Z" fill="#262721"/></svg></div>
-              </button>
+              <div class="footer-callback__footer">
+                <p class="footer-callback__error">Пожалуйста, заполните обязательное поле</p>
+                <button class="footer-callback__button reveal-showed" type="submit">
+                      <div class="button undefined"><span>Отправить</span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.6746 10.0002L16.9246 4.75849C17.0815 4.60157 17.1697 4.38874 17.1697 4.16682C17.1697 3.9449 17.0815 3.73207 16.9246 3.57515C16.7677 3.41823 16.5549 3.33008 16.333 3.33008C16.111 3.33008 15.8982 3.41823 15.7413 3.57515L10.4996 8.82515L5.25796 3.57515C5.10104 3.41823 4.88821 3.33008 4.66629 3.33008C4.44437 3.33008 4.23154 3.41823 4.07462 3.57515C3.9177 3.73207 3.82955 3.9449 3.82955 4.16682C3.82955 4.38874 3.9177 4.60157 4.07462 4.75849L9.32462 10.0002L4.07462 15.2418C3.99652 15.3193 3.93452 15.4115 3.89221 15.513C3.84991 15.6146 3.82812 15.7235 3.82812 15.8335C3.82812 15.9435 3.84991 16.0524 3.89221 16.154C3.93452 16.2555 3.99652 16.3477 4.07462 16.4252C4.15209 16.5033 4.24426 16.5653 4.34581 16.6076C4.44736 16.6499 4.55628 16.6717 4.66629 16.6717C4.7763 16.6717 4.88522 16.6499 4.98677 16.6076C5.08832 16.5653 5.18049 16.5033 5.25796 16.4252L10.4996 11.1752L15.7413 16.4252C15.8188 16.5033 15.9109 16.5653 16.0125 16.6076C16.114 16.6499 16.2229 16.6717 16.333 16.6717C16.443 16.6717 16.5519 16.6499 16.6534 16.6076C16.755 16.5653 16.8472 16.5033 16.9246 16.4252C17.0027 16.3477 17.0647 16.2555 17.107 16.154C17.1493 16.0524 17.1711 15.9435 17.1711 15.8335C17.1711 15.7235 17.1493 15.6146 17.107 15.513C17.0647 15.4115 17.0027 15.3193 16.9246 15.2418L11.6746 10.0002Z" fill="#262721"/></svg></div>
+                </button>
+                <div class="footer-callback__text reveal-showed">Отправляя данные,вы соглашаетесь <br> с <a href="#" target="_blank">Правилами обработки персональных данных</a></div>
+              </div>
             </form>
           </div>
           <div class="footer-contacts">
-            <div class="footer-contacts__logo"><img src="/assets/images/header/logo.png" alt="logo-image" loading="lazy"></div>
-            <div class="footer-contacts__top"><a class="footer-contacts__item" href="tel:+7(495)937-69-32"><img src="/assets/images/footer/phone.png" alt="phone" loading="lazy"><span>+7 (495) 937-69-32</span></a><a class="footer-contacts__item" href="mailto:"><img src="/assets/images/footer/email.png" alt="email" loading="lazy"><span>conceptfusion@bigcom.ru</span></a></div>
-            <div class="footer-contacts__bottom">
+            <div class="footer-contacts__logo reveal-showed"><img src="/assets/images/header/logo.png" alt="logo-image" loading="lazy"></div>
+            <div class="footer-contacts__top"><a class="footer-contacts__item reveal-showed" href="tel:+7(495)937-69-32"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.2008 10.8333C16.0175 10.8333 15.8258 10.775 15.6425 10.7333C15.2712 10.6515 14.9064 10.5429 14.5508 10.4083C14.1642 10.2677 13.7393 10.275 13.3577 10.4288C12.9762 10.5827 12.6651 10.8722 12.4841 11.2416L12.3008 11.6166C11.4892 11.1651 10.7433 10.6043 10.0842 9.94997C9.42979 9.29082 8.869 8.54497 8.41748 7.7333L8.76748 7.49997C9.13695 7.31907 9.42647 7.00791 9.58031 6.62638C9.73415 6.24485 9.74146 5.8199 9.60082 5.4333C9.4685 5.07699 9.35993 4.7123 9.27582 4.34164C9.23415 4.1583 9.20082 3.96664 9.17582 3.77497C9.07462 3.18799 8.76717 2.65642 8.30883 2.276C7.8505 1.89559 7.2714 1.69131 6.67582 1.69997H4.17582C3.81668 1.6966 3.46102 1.77065 3.13307 1.91708C2.80512 2.06351 2.51257 2.27888 2.27534 2.54854C2.03811 2.81819 1.86176 3.1358 1.75831 3.47973C1.65485 3.82367 1.62672 4.18585 1.67582 4.54164C2.11976 8.03279 3.71417 11.2765 6.20719 13.7605C8.70021 16.2445 11.9497 17.8271 15.4425 18.2583H15.7591C16.3737 18.2592 16.967 18.0337 17.4258 17.625C17.6895 17.3892 17.9001 17.1001 18.0437 16.7769C18.1874 16.4537 18.2608 16.1037 18.2591 15.75V13.25C18.2489 12.6711 18.0382 12.1138 17.6628 11.673C17.2874 11.2323 16.7707 10.9355 16.2008 10.8333ZM16.6175 15.8333C16.6173 15.9516 16.592 16.0686 16.5431 16.1763C16.4943 16.2841 16.423 16.3802 16.3342 16.4583C16.2413 16.5391 16.1325 16.5995 16.0147 16.6354C15.897 16.6713 15.773 16.6819 15.6508 16.6666C12.5299 16.2665 9.63101 14.8387 7.41141 12.6085C5.19181 10.3784 3.77782 7.47275 3.39248 4.34997C3.37922 4.2279 3.39084 4.10441 3.42665 3.98696C3.46246 3.86951 3.52171 3.76054 3.60082 3.66664C3.67891 3.57775 3.77503 3.50651 3.8828 3.45765C3.99056 3.4088 4.1075 3.38345 4.22582 3.3833H6.72582C6.9196 3.37899 7.10884 3.44237 7.26094 3.56253C7.41304 3.68269 7.51849 3.85211 7.55915 4.04164C7.59248 4.26942 7.63415 4.49442 7.68415 4.71664C7.78042 5.15593 7.90853 5.58762 8.06748 6.00831L6.90082 6.54997C6.80106 6.59574 6.71133 6.66076 6.63678 6.7413C6.56223 6.82184 6.50432 6.91632 6.46638 7.0193C6.42843 7.12228 6.41121 7.23175 6.41569 7.34141C6.42017 7.45107 6.44627 7.55876 6.49248 7.6583C7.69182 10.2273 9.75685 12.2923 12.3258 13.4916C12.5287 13.575 12.7563 13.575 12.9592 13.4916C13.0631 13.4545 13.1586 13.397 13.2401 13.3226C13.3217 13.2482 13.3876 13.1584 13.4342 13.0583L13.9508 11.8916C14.3816 12.0457 14.8213 12.1737 15.2675 12.275C15.4897 12.325 15.7147 12.3666 15.9425 12.4C16.132 12.4406 16.3014 12.5461 16.4216 12.6982C16.5417 12.8503 16.6051 13.0395 16.6008 13.2333L16.6175 15.8333Z" fill="#262721"/></svg><span>+7 (495) 937-69-32</span></a><a class="footer-contacts__item reveal-showed" href="mailto:"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.8346 3.3335H4.16797C3.50493 3.3335 2.86904 3.59689 2.4002 4.06573C1.93136 4.53457 1.66797 5.17045 1.66797 5.8335V14.1668C1.66797 14.8299 1.93136 15.4658 2.4002 15.9346C2.86904 16.4034 3.50493 16.6668 4.16797 16.6668H15.8346C16.4977 16.6668 17.1336 16.4034 17.6024 15.9346C18.0712 15.4658 18.3346 14.8299 18.3346 14.1668V5.8335C18.3346 5.17045 18.0712 4.53457 17.6024 4.06573C17.1336 3.59689 16.4977 3.3335 15.8346 3.3335ZM15.493 5.00016L10.593 9.90016C10.5155 9.97827 10.4233 10.0403 10.3218 10.0826C10.2202 10.1249 10.1113 10.1467 10.0013 10.1467C9.89129 10.1467 9.78237 10.1249 9.68082 10.0826C9.57927 10.0403 9.4871 9.97827 9.40964 9.90016L4.50964 5.00016H15.493ZM16.668 14.1668C16.668 14.3878 16.5802 14.5998 16.4239 14.7561C16.2676 14.9124 16.0556 15.0002 15.8346 15.0002H4.16797C3.94695 15.0002 3.73499 14.9124 3.57871 14.7561C3.42243 14.5998 3.33464 14.3878 3.33464 14.1668V6.17516L8.23464 11.0752C8.70339 11.5433 9.3388 11.8063 10.0013 11.8063C10.6638 11.8063 11.2992 11.5433 11.768 11.0752L16.668 6.17516V14.1668Z" fill="#262721"/></svg><span>conceptfusion@bigcom.ru</span></a></div>
+            <div class="footer-contacts__bottom reveal-showed">
               <div class="footer-contacts__text">Мы в социальных сетях:</div>
               <div class="footer-contacts__socials"><a class="footer-contacts__social" href="#" target="_blank"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 0C4.70121 0 0 4.70099 0 10.5C0 16.299 4.70121 21 10.5 21C16.2988 21 21 16.299 21 10.5C21 4.70099 16.2988 0 10.5 0ZM15.8262 11.6356C16.3155 12.1136 16.8333 12.5635 17.2726 13.0909C17.4673 13.3242 17.6507 13.5655 17.7904 13.8368C17.9897 14.2237 17.8097 14.648 17.4634 14.671L15.3123 14.6706C14.7567 14.7165 14.3146 14.4925 13.9419 14.1126C13.6443 13.8099 13.3682 13.4866 13.0817 13.1736C12.9646 13.0451 12.8413 12.9242 12.6943 12.829C12.4011 12.6382 12.1463 12.6967 11.9783 13.003C11.807 13.3148 11.7679 13.6602 11.7516 14.0072C11.7282 14.5144 11.5752 14.6469 11.0663 14.6708C9.97881 14.7217 8.94697 14.5567 7.98795 14.0085C7.14193 13.5249 6.48712 12.8423 5.91652 12.0696C4.8054 10.5632 3.95445 8.9098 3.18985 7.20896C3.01777 6.82591 3.14366 6.62096 3.56624 6.61301C4.26832 6.59948 4.97039 6.6012 5.67247 6.61237C5.9582 6.61688 6.14725 6.78037 6.25703 7.04999C6.63643 7.98344 7.10155 8.87156 7.68439 9.69523C7.83971 9.91458 7.99826 10.1333 8.22405 10.2882C8.47326 10.4592 8.66317 10.4027 8.78069 10.1245C8.85588 9.94766 8.88832 9.75861 8.90464 9.56913C8.9605 8.92011 8.96716 8.27131 8.87049 7.62488C8.81033 7.22035 8.58282 6.95911 8.17958 6.88263C7.9742 6.84374 8.00428 6.76769 8.10417 6.65039C8.27754 6.44759 8.43996 6.32213 8.76457 6.32213L11.195 6.3217C11.578 6.39689 11.664 6.56876 11.716 6.9546L11.7181 9.65549C11.7136 9.8048 11.7931 10.2474 12.0612 10.3451C12.276 10.416 12.4178 10.2437 12.5463 10.1077C13.1291 9.48921 13.5444 8.7592 13.9163 8.00363C14.0804 7.67042 14.222 7.32562 14.3595 6.98016C14.4617 6.72473 14.6207 6.59905 14.909 6.60335L17.2494 6.60614C17.3184 6.60614 17.3884 6.60678 17.4567 6.6186C17.8512 6.68606 17.9592 6.85577 17.8372 7.24054C17.6452 7.84508 17.272 8.34865 16.9072 8.85351C16.5162 9.39404 16.0992 9.91565 15.7121 10.4585C15.3563 10.9548 15.3845 11.2047 15.8262 11.6356Z" fill="#262721"/></svg></a></div>
             </div>
           </div>
-          <div class="footer-bottom"><a class="footer-bottom__policy" href="#" target="_blank">Политика конфиденциальности</a>
+          <div class="footer-bottom reveal-showed"><a class="footer-bottom__policy" href="#" target="_blank">Политика конфиденциальности</a>
             <div class="footer-bottom__copy">2023, ООО БИГ</div>
             <div class="footer-bottom__text"><span>Сайт разработан в</span><a href="#" target="_blank">
                  <svg width="70" height="25" viewBox="0 0 70 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_438_317)"><path d="M12 2C12.5523 2 13 1.55228 13 1C13 0.447715 12.5523 0 12 0C11.4477 0 11 0.447715 11 1C11 1.55228 11.4477 2 12 2Z" fill="#33AD43"/><path d="M31.1232 14.861H29L31.8717 0L36.6222 10.7363L41.4184 0L44 14.861H41.8767L40.4867 6.5345L36.5153 15L32.5743 6.51904L31.1232 14.861Z" fill="#262721"/><path d="M45 0.140333H47.368L51.144 9.48026L55 0L58.728 9.48026L62.632 0.155925H65L58.6 15L54.872 5.11433L51.096 15L45 0.140333Z" fill="#262721"/><path d="M68 0H70V15H68V0Z" fill="#262721"/><path fill-rule="evenodd" clip-rule="evenodd" d="M30.5389 23C31.0518 23 31.3938 22.7888 31.5026 22.6198V22.9578H32V19H31.5026V20.3522C31.316 20.1831 31.0207 20.0705 30.5699 20.0705C29.715 20.0705 29 20.6761 29 21.5493C29 22.4507 29.6373 23 30.5389 23ZM31.5026 20.8873V22.0281C31.3782 22.2536 31.0674 22.5634 30.601 22.5634C29.9792 22.5634 29.5285 22.1831 29.5285 21.5353C29.5285 20.9014 30.0414 20.493 30.6321 20.493C31.0363 20.493 31.316 20.6338 31.5026 20.8873Z" fill="#262721"/><path fill-rule="evenodd" clip-rule="evenodd" d="M34 19.2667C34 19.1123 33.7805 19 33.5122 19C33.2195 19 33 19.1123 33 19.2667C33 19.435 33.2195 19.5474 33.5122 19.5474C33.7805 19.5474 34 19.435 34 19.2667ZM33.8781 20.1789H33.0975V23H33.8781V20.1789Z" fill="#262721"/><path fill-rule="evenodd" clip-rule="evenodd" d="M35.601 24C36.3938 24 37 23.6084 37 22.6573V20.056H36.487V20.3077C36.3471 20.1539 36.0207 20 35.5544 20C34.6995 20 34 20.5455 34 21.4545C34 22.3636 34.6218 22.9091 35.5544 22.9091C36.0829 22.9091 36.3005 22.7692 36.5026 22.5594V22.7273C36.5026 23.2447 36.1917 23.5524 35.5855 23.5524C35.0881 23.5524 34.7928 23.3426 34.6684 23.1329L34.2177 23.3147C34.3886 23.7342 34.9171 24 35.601 24ZM36.5026 20.8391V21.972C36.3938 22.2377 36.0829 22.5034 35.6321 22.4895C34.9638 22.4895 34.5285 22.1118 34.5285 21.4685C34.5285 20.7972 35.0415 20.4336 35.6321 20.4336C36.0518 20.4336 36.3627 20.6154 36.5026 20.8391Z" fill="#262721"/><path fill-rule="evenodd" clip-rule="evenodd" d="M39 19.2667C39 19.1123 38.7805 19 38.5122 19C38.2195 19 38 19.1123 38 19.2667C38 19.435 38.2195 19.5474 38.5122 19.5474C38.7805 19.5474 39 19.435 39 19.2667ZM38.8781 20.1789H38.0976V23H38.8781V20.1789Z" fill="#262721"/><path d="M39 20.8032H39.7875V20H40.3876V20.8032H41.6813V21.2913H40.3876V22.6772C40.3876 23.3071 40.5938 23.5118 41.0438 23.5118C41.3065 23.5118 41.5127 23.4173 41.719 23.2913L42 23.6693C41.7752 23.874 41.4003 24 40.9313 24C40.2 24 39.7875 23.5905 39.7875 22.8032V21.2913H39V20.8032Z" fill="#262721"/><path fill-rule="evenodd" clip-rule="evenodd" d="M43.5943 20C43.0974 20 42.5487 20.1731 42.223 20.4183L42.4973 20.7645C42.8231 20.5626 43.1314 20.4471 43.5259 20.4471C44.2458 20.4471 44.4513 20.7933 44.4513 21.3125C44.2802 21.2693 43.903 21.2259 43.6457 21.2259C42.6515 21.2259 42 21.4856 42 22.1202C42 22.6538 42.4973 23 43.2516 23C43.8517 23 44.2458 22.7836 44.4513 22.5384V22.9711H45V21.1683C45 20.4327 44.5201 20 43.5943 20ZM44.4513 21.7308V22.0192C44.3315 22.25 43.9544 22.5817 43.3713 22.5817C42.9084 22.5817 42.5831 22.4086 42.5831 22.1058C42.5831 21.7596 43.0116 21.6442 43.7145 21.6442C43.9884 21.6442 44.2802 21.6874 44.4513 21.7308Z" fill="#262721"/><path d="M46 19H47V23H46V19Z" fill="#262721"/><path fill-rule="evenodd" clip-rule="evenodd" d="M50.5943 20C50.0974 20 49.5487 20.1731 49.223 20.4183L49.4973 20.7645C49.8231 20.5626 50.1314 20.4471 50.5259 20.4471C51.2458 20.4471 51.4513 20.7933 51.4513 21.3125C51.2802 21.2693 50.903 21.2259 50.6457 21.2259C49.6515 21.2259 49 21.4856 49 22.1202C49 22.6538 49.4973 23 50.2516 23C50.8517 23 51.2458 22.7836 51.4513 22.5384V22.9711H52V21.1683C52 20.4327 51.5201 20 50.5943 20ZM51.4513 21.7308V22.0192C51.3315 22.25 50.9544 22.5817 50.3713 22.5817C49.9088 22.5817 49.5831 22.4086 49.5831 22.1058C49.5831 21.7596 50.0116 21.6442 50.7145 21.6442C50.9888 21.6442 51.2802 21.6874 51.4513 21.7308Z" fill="#262721"/><path fill-rule="evenodd" clip-rule="evenodd" d="M53.6013 24C54.3938 24 55 23.6084 55 22.6573V20.056H54.487V20.3077C54.3472 20.1539 54.0211 20 53.5547 20C52.6998 20 52 20.5455 52 21.4545C52 22.3636 52.622 22.9091 53.5547 22.9091C54.0831 22.9091 54.3006 22.7692 54.5028 22.5594V22.7273C54.5028 23.2447 54.1921 23.5524 53.5855 23.5524C53.0883 23.5524 52.7929 23.3426 52.6686 23.1329L52.2176 23.3147C52.3886 23.7342 52.9173 24 53.6013 24ZM54.487 20.8391V21.972C54.3938 22.2377 54.0831 22.5034 53.6167 22.4895C52.9481 22.4895 52.513 22.1118 52.513 21.4685C52.513 20.7972 53.0259 20.4336 53.6167 20.4336C54.0365 20.4336 54.3472 20.6154 54.487 20.8391Z" fill="#262721"/><path fill-rule="evenodd" clip-rule="evenodd" d="M57.6462 23C58.1539 23 58.5846 22.799 58.8769 22.3971L58.5537 22.1244C58.3692 22.3684 58.0307 22.555 57.6614 22.555C57.0306 22.555 56.569 22.2392 56.5386 21.6506H58.9691C59 21.5215 59 21.4067 59 21.3062C59 20.5024 58.3844 20 57.5692 20C56.5386 20 56 20.6603 56 21.5072C56 22.4115 56.6617 23 57.6462 23ZM58.4771 21.2345H56.5229C56.5999 20.7608 56.9693 20.4163 57.5383 20.4307C58.0925 20.4307 58.4462 20.7178 58.4771 21.2345Z" fill="#262721"/><path d="M60 20.0585H60.5276V20.439C60.7419 20.1463 61.187 20 61.6648 20C62.5218 20 63 20.3951 63 21.3317V23H62.4724V21.3902C62.4724 20.7463 62.1592 20.4537 61.5002 20.4537C61.0882 20.4537 60.7089 20.6878 60.5276 21.0536V23H60V20.0585Z" fill="#262721"/><path d="M66 22.3541C65.7633 22.7703 65.1949 23 64.6895 23C63.6791 23 63 22.4115 63 21.5072C63 20.6603 63.6631 20 64.6578 20C65.2262 20 65.7317 20.2297 65.937 20.5885L65.5423 20.8325C65.3213 20.5598 65.0525 20.445 64.6578 20.445C64.0104 20.445 63.5211 20.89 63.5211 21.5072C63.5211 22.1388 63.9948 22.5694 64.7212 22.5694C65.0999 22.5694 65.416 22.3971 65.6053 22.1244L66 22.3541Z" fill="#262721"/><path d="M66.6439 23.5177C66.6877 23.5319 66.7171 23.5461 66.761 23.5461C66.9803 23.5461 67.1268 23.4043 67.3316 22.9503L67.4193 22.7376L66 20H66.5561L67.6535 22.156L68.4877 20H69L67.8877 22.8085C67.4926 23.7731 67.1851 24 66.7755 24C66.6584 24 66.5413 23.9716 66.4535 23.9291L66.6439 23.5177Z" fill="#262721"/><path d="M19.6288 15.3403H23.1875L24 14.0079H18.6863L16.3625 20.3208L14.8838 17.7196L12.365 22.2084V3H11V25H12.365L14.8838 20.305L16.4438 23.4931L16.8175 22.5256L17.1425 21.7008" fill="#262721"/><path d="M4.37124 12.6597H0.796249L0 13.9921H5.31376L7.63749 7.6633L9.10002 10.2805L11.6188 5.79166V25H13V3H11.6188L9.11624 7.69501L7.55625 4.50685L7.18249 5.47442H7.16627L6.85749 6.28336V6.2992" fill="#262721"/></g><defs><clipPath id="clip0_438_317"><rect width="70" height="25" fill="white"/></clipPath></defs></svg></a></div>
