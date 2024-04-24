@@ -218,7 +218,12 @@
                 </div>
                 <div class="card col-span-12 card-case-block card-title-top card-white card-smaller-mob">
                   <div class="card__icon"><img src="/assets/images/green-star-card-icon.svg" alt="card-icon"></div>
-                  <div class="card__image"><img src="/assets/images/cases/results.png" alt="card-bg"></div>
+                  <div class="card__image">
+                    <picture>
+                      <source media="(max-width: 767px)" srcset="/assets/images/cases/results-392.png">
+                      <source media="(max-width: 1023px)" srcset="/assets/images/cases/results-768.png"><img src="/assets/images/cases/results-1920.png" alt="card-bg">
+                    </picture>
+                  </div>
                   <div class="card__content">
                     <h3 class="card__title">Результаты</h3>
                   </div>
