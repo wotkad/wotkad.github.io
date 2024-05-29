@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://yourwebsite.ru/</loc>
+    <lastmod>2024-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://yourwebsite.ru/about</loc>
+    <lastmod>2024-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://yourwebsite.ru/projects</loc>
+    <lastmod>2024-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://yourwebsite.ru/contacts</loc>
+    <lastmod>2024-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
