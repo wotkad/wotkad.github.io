@@ -1,4 +1,5 @@
-ErrorDocument 404 https://spacecode.ru/404
+ErrorDocument 404 https://yourwebsite.ru/404
+ErrorDocument 500 https://yourwebsite.ru/500
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
