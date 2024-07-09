@@ -234,13 +234,6 @@ function sendFormCallback() {
     }
   }
   sender();
-  $('input[type="tel"]').on('keydown', function (e) {
-    if (e.key !== undefined) {
-      if (e.key.length == 1 && e.key.match(/[^0-9'".]/)) {
-        return false;
-      }
-    }
-  });
 }
 sendFormCallback();
 
@@ -331,13 +324,6 @@ function sendFormEstimate() {
     }
   }
   sender();
-  $('input[type="tel"]').on('keydown', function (e) {
-    if (e.key !== undefined) {
-      if (e.key.length == 1 && e.key.match(/[^0-9'".]/)) {
-        return false;
-      }
-    }
-  });
 }
 sendFormEstimate();
 
@@ -352,7 +338,10 @@ sendFormEstimate();
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sendMail_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sendMail.js */ "./assets/js/components/form/sendMail.js");
+/* harmony import */ var inputmask__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! inputmask */ "../node_modules/inputmask/dist/inputmask.js");
+/* harmony import */ var inputmask__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(inputmask__WEBPACK_IMPORTED_MODULE_1__);
 /* provided dependency */ var $ = __webpack_require__(/*! jquery */ "../node_modules/jquery/dist/jquery.js");
+
 
 function sendFormSignUp() {
   var validateName = function validateName(name) {
@@ -425,13 +414,14 @@ function sendFormSignUp() {
     }
   }
   sender();
-  $('input[type="tel"]').on('keydown', function (e) {
-    if (e.key !== undefined) {
-      if (e.key.length == 1 && e.key.match(/[^0-9'".]/)) {
-        return false;
-      }
-    }
-  });
+  function inputMask() {
+    var input = $('input[type="tel"]');
+    Array.from(input).forEach(function (element) {
+      var mask = new (inputmask__WEBPACK_IMPORTED_MODULE_1___default())('+7 (999) 999-99-99');
+      mask.mask(element);
+    });
+  }
+  inputMask();
 }
 sendFormSignUp();
 
@@ -1164,9 +1154,9 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendor-node_modules_gsap_index_js-node_modules_jquery_dist_jquery_js-node_modules_swiper_modu-fc2e99"], () => (__webpack_require__("./bundle.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendor-node_modules_gsap_index_js-node_modules_inputmask_dist_inputmask_js-node_modules_jquer-42fc35"], () => (__webpack_require__("./bundle.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=bundle.0246c8f.bundle.js.map
+//# sourceMappingURL=bundle.d8cc224.bundle.js.map
