@@ -893,7 +893,7 @@ function toggleModelPopup() {
   var popup = $('.popup-model');
   var bg = $('.popup-model__bg');
   var close = $('.popup-model__close, .popup-model__back');
-  var scrollableElement = document.querySelector('.popup-model__content');
+  var scrollableElement = document.querySelector('.popup-model__container');
   button.on('click', function () {
     popup.addClass('active');
     bg.addClass('active');
@@ -1159,4 +1159,4 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=bundle.d8cc224.bundle.js.map
+//# sourceMappingURL=bundle.d2b0724.bundle.js.map
