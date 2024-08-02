@@ -349,12 +349,15 @@ function slider_includes_sliderGallery() {
     loop: true,
     breakpoints: {
       768: {
-        slidesPerView: 3
+        slidesPerView: 3,
+        spaceBetween: 20
       },
       1180: {
-        slidesPerView: 6
+        slidesPerView: 6,
+        spaceBetween: 20
       },
       1635: {
+        slidesPerView: 6,
         spaceBetween: 32
       }
     },
@@ -1046,4 +1049,4 @@ $(function () {
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=bundle.254863b.bundle.js.map
+//# sourceMappingURL=bundle.7656fe1.bundle.js.map
