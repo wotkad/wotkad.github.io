@@ -63,7 +63,7 @@ function scrollInit() {
     }
   };
   var revealBorderOptions = {
-    delay: 300,
+    duration: 600,
     opacity: 1,
     afterReveal: function afterReveal(el) {
       scroll_reveal_$(el).addClass('active');
@@ -81,7 +81,15 @@ var rellax_default = /*#__PURE__*/__webpack_require__.n(rellax);
 
 function scrollRellax() {
   var fastOptions2x = {
-    speed: 2,
+    speed: 3,
+    center: false,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  };
+  var fastOptions4x = {
+    speed: 4,
     center: false,
     wrapper: null,
     round: true,
@@ -89,6 +97,7 @@ function scrollRellax() {
     horizontal: false
   };
   new (rellax_default())('.rellax-fast-2x', fastOptions2x);
+  new (rellax_default())('.rellax-fast-4x', fastOptions4x);
 }
 scrollRellax();
 // EXTERNAL MODULE: ../node_modules/scroll-lock/dist/scroll-lock.js
@@ -1049,4 +1058,4 @@ $(function () {
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=bundle.7656fe1.bundle.js.map
+//# sourceMappingURL=bundle.cee042f.bundle.js.map
