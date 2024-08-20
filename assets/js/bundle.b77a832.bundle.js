@@ -287,11 +287,6 @@ function sliderBrands() {
     pagination: {
       el: '.swiper-pagination',
       clickable: true
-    },
-    breakpoints: {
-      1635: {
-        allowTouchMove: false
-      }
     }
   });
 }
@@ -1058,4 +1053,4 @@ $(function () {
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=bundle.cee042f.bundle.js.map
+//# sourceMappingURL=bundle.b77a832.bundle.js.map
