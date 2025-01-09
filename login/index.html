@@ -20,9 +20,9 @@
     <link href="/assets/images/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
     <link href="/assets/images/favicons/favicon.ico" rel="shortcut icon">
     <link color="#5bbad5" href="/assets/images/favicons/safari-pinned-tab.svg" rel="mask-icon">
-    <title>Топ Трафик | Список страниц</title>
-    <link href="./manifest.json" rel="manifest" crossorigin>
-    <meta content="./browserconfig.xml" name="msapplication-config">
+    <title>Топ Трафик | Авторизация</title>
+    <link href="../manifest.json" rel="manifest" crossorigin>
+    <meta content="../browserconfig.xml" name="msapplication-config">
     <script>
       function autorun() {}
       if (window.addEventListener) window.addEventListener("load", autorun, false);
@@ -32,7 +32,7 @@
       Похоже у вас отключён Javascript, поэтому вы видете это сообщение.
       
     </noscript>
-  <link href="/assets/css/bundle.10ecfc1.bundle.css" rel="stylesheet"></head>
+  <script defer src="/assets/js/vendor.b26d731.bundle.js"></script><script defer src="/assets/js/bundle.477b971.bundle.js"></script><link href="/assets/css/bundle.10ecfc1.bundle.css" rel="stylesheet"></head>
   <body>
     <div class="render"></div>
     <div class="hidden">
@@ -713,19 +713,90 @@
   <path d="M9.42189 13.2188H8.57811C8.18979 13.2188 7.875 13.5335 7.875 13.9219C7.875 14.3102 8.18979 14.625 8.57811 14.625H9.42189C9.81021 14.625 10.125 14.3102 10.125 13.9219C10.125 13.5335 9.81021 13.2188 9.42189 13.2188Z" fill="currentColor"></path>
 </svg>
     </div>
-    <main class="p-4">
-      <div class="flex flex-col gap-y-2 items-start p-4 border rounded-md mb-4">
-        <h2 class="text-2xl font-bold pb-4 border-b w-full mb-2">Список страниц</h2>
-        <div class="flex gap-x-2 text-sm"><span>Компоненты</span><span>-</span><a class="text-blue-200" href="/components/" target="_blank">/components/</a></div>
-        <div class="flex gap-x-2 text-sm"><span>Авторизация</span><span>-</span><a class="text-blue-200" href="/login/" target="_blank">/login/</a></div>
-        <div class="flex gap-x-2 text-sm"><span>Справочник каналов</span><span>-</span><a class="text-blue-200" href="/channels/" target="_blank">/channels/</a></div>
-        <div class="flex gap-x-2 text-sm"><span>Администраторы</span><span>-</span><a class="text-blue-200" href="/admins/" target="_blank">/admins/</a></div>
-      </div>
+    <main>
+      <section>
+        <div class="login">
+          <div class="login__image">
+            <div class="login__logo">
+<div class="logo">
+  <svg class="logo-small" width="26px" height="26px" version="1.0" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(0 26) scale(.1 -.1)">
+      <path d="m16 244c-9-8-16-20-16-25s49-9 110-9h110v-105c0-95 2-104 18-98 28 11 32 24 32 125 0 127 0 128-135 128-81 0-107-3-119-16z" fill="#005CFF"></path>
+      <path d="m0 135c0-22 4-25 37-25h37l-37-38c-40-41-45-57-22-66 9-3 31 8 54 29 21 19 41 35 45 35 3 0 6-16 6-35 0-28 4-35 20-35 18 0 20 7 20 80v80h-80c-79 0-80 0-80-25z" fill="#005CFF"></path>
+    </g>
+  </svg>
+  <svg class="narrowed" width="131px" height="26px" version="1.0" viewBox="0 0 131 26" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(0 26) scale(.1 -.1)">
+      <path d="m317 204c-10-11 3-24 24-24 17 0 19-7 19-65 0-51 3-65 15-65s15 14 15 65c0 58 2 65 20 65 11 0 20 7 20 15 0 11-13 15-53 15-30 0-57-3-60-6z"></path>
+      <path d="m426 158c-45-64 27-146 77-90 10 10 17 32 17 49 0 57-64 84-94 41zm59-43c0-39-31-48-41-11-7 30 2 48 24 44 11-2 17-13 17-33z"></path>
+      <path d="m540 115c0-51 3-65 15-65 9 0 15 9 15 24 0 19 6 25 26 28 66 8 45 78-23 78h-33v-65zm60 20c0-8-7-15-15-15s-15 7-15 15 7 15 15 15 15-7 15-15z"></path>
+      <path d="m625 201c-3-5 5-11 17-13 21-3 23-9 26-71 4-91 26-87 30 6 3 59 5 67 22 67 11 0 20 5 20 10 0 13-107 13-115 1z" fill="#005CFF"></path>
+      <path d="m734 166c-9-25 1-109 14-114 7-2 12 6 12 22 0 33 13 33 28 1 6-14 18-25 27-25 18 0 19 12 3 28-9 9-9 18 0 37 6 13 9 31 6 39-10 26-81 35-90 12zm61-27c0-7-8-15-17-17-18-3-25 18-11 32 10 10 28 1 28-15z" fill="#005CFF"></path>
+      <path d="m862 119c-24-67-22-82 6-56 24 22 42 21 58 0 24-33 28-3 7 55-27 77-44 77-71 1zm48-10c0-5-4-9-10-9-5 0-10 7-10 16 0 8 5 12 10 9 6-3 10-10 10-16z" fill="#005CFF"></path>
+      <path d="m970 115c0-37 4-65 10-65s10 11 10 25c0 20 5 25 25 25 16 0 25 6 25 15s-10 15-26 15c-34 0-26 24 9 28 42 5 32 22-13 22h-40v-65z" fill="#005CFF"></path>
+      <path d="m1064 166c-9-25 1-109 14-114 7-2 12 6 12 22 0 19 5 26 20 26 11 0 20 7 20 15 0 9-9 15-21 15-27 0-19 24 9 28 35 5 25 22-13 22-21 0-38-6-41-14z" fill="#005CFF"></path>
+      <path d="m1167 173c-4-3-7-33-7-65 0-45 3-58 15-58s15 14 15 65c0 60-6 75-23 58z" fill="#005CFF"></path>
+      <path d="m1227 162c-44-48 2-129 58-104 14 7 25 16 25 22 0 13-27 13-35 0-12-20-35 3-35 35 0 40 12 50 39 33 27-16 41 0 17 18-27 19-50 18-69-4z" fill="#005CFF"></path>
+    </g>
+  </svg>
+</div>
+            </div>
+          </div>
+          <div class="login__container">
+            <form class="login__form" action="#">
+              <h1 class="login__title">Добро пожаловать!</h1>
+              <div class="login__subtitle">Еще не зарегистрированы?<a class="login__create" href="#">Создайте аккаунт</a></div>
+              <div class="login__input login__input-email">
+                    <label class="input">
+                      <input class="input__el" type="email" placeholder="Почта" name="email">
+                      <div class="input__tip">Почта</div>
+                    </label>
+              </div>
+              <div class="login__input login__input-password">
+                    <label class="input">
+                      <input class="input__el" type="password" placeholder="Пароль" name="password">
+                      <div class="input__tip">Пароль</div>
+                      <button class="input__toggle" type="button">
+                        <svg class="input__eye">
+                          <use xlink:href="#other-eye-icon"></use>
+                        </svg>
+                        <svg class="input__eye input__eye-hide">
+                          <use xlink:href="#other-eye-closed-icon"></use>
+                        </svg>
+                      </button>
+                    </label>
+              </div>
+              <div class="login__remember">
+                    <div class="checkbox">
+                      <label class="input-checkbox input-checkbox-with-label lg">
+                        <input type="checkbox" name="checkbox" value="Запомнить меня"><span></span>
+                        <p>Запомнить меня</p>
+                      </label>
+                    </div><a class="login__forgot" href="#">Забыли пароль?</a>
+              </div>
+              <div class="login__button">
+                    <button class="button button-with-icon-full-lg" type="submit" disabled aria-label="button">
+                      <svg>
+                        <use xlink:href="#other-arrow-right-icon"></use>
+                      </svg><span>Войти</span>
+                    </button>
+              </div>
+              <div class="login__divider">
+                <div class="login__line"></div><span class="login__divider-text">или</span>
+                <div class="login__line"></div>
+              </div><a class="button button-with-icon-full-google" href="#" aria-label="button">
+                    <svg>
+                      <use xlink:href="#other-google-icon"></use>
+                    </svg><span>Войти с учетной записью Google</span></a>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <div class="scroll-to-top"><a class="button button-icon-round" href="#" aria-label="button">
             <svg>
               <use xlink:href="#other-arrow-up-icon"></use>
             </svg></a>
     </div>
-  <script defer src="/assets/js/vendor.b26d731.bundle.js"></script><script defer src="/assets/js/bundle.477b971.bundle.js"></script></body>
+  </body>
 </html>
