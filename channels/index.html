@@ -22,6 +22,8 @@
     <link href="/assets/images/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
     <link href="/assets/images/favicons/favicon.ico" rel="shortcut icon">
     <link color="#5bbad5" href="/assets/images/favicons/safari-pinned-tab.svg" rel="mask-icon">
+    <link rel="stylesheet" href="/assets/styles/datepicker.min.css">
+    <link rel="stylesheet" href="/assets/styles/datepicker.css">
     <title>Топ Трафик | Справочник каналов</title>
     <link href="../manifest.json" rel="manifest" crossorigin>
     <meta content="../browserconfig.xml" name="msapplication-config">
@@ -34,7 +36,7 @@
       Похоже у вас отключён Javascript, поэтому вы видете это сообщение.
       
     </noscript>
-  <script defer src="/assets/js/vendor.064185c.bundle.js"></script><script defer src="/assets/js/bundle.064adf7.bundle.js"></script><link href="/assets/css/bundle.aec4356.bundle.css" rel="stylesheet"></head>
+  <script defer src="/assets/js/vendor.7c44a0b.bundle.js"></script><script defer src="/assets/js/bundle.100e410.bundle.js"></script><link href="/assets/css/bundle.8849a11.bundle.css" rel="stylesheet"></head>
   <body>
     <div class="render"></div>
     <div class="hidden">
@@ -348,14 +350,14 @@
   <line x1="5.5" y1="7.6" x2="2.5" y2="7.6" stroke="currentColor" stroke-width="1.2"></line>
 </svg>
 <svg id="other-eye-closed-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M2.61997 11.255L3.33497 10.545C2.55208 9.84206 1.93696 8.97234 1.53497 8C2.54997 5.465 5.34997 3.5 7.99997 3.5C8.68192 3.509 9.35769 3.63064 9.99997 3.86L10.775 3.08C9.8963 2.70866 8.95382 2.51167 7.99997 2.5C6.37023 2.56129 4.79416 3.09878 3.46657 4.04604C2.13898 4.99331 1.11805 6.30882 0.52997 7.83C0.490254 7.93985 0.490254 8.06015 0.52997 8.17C0.974094 9.34851 1.69018 10.4055 2.61997 11.255Z" fill="#19161D"></path>
-  <path d="M5.99997 7.865C6.03474 7.38586 6.24082 6.93524 6.58051 6.59554C6.92021 6.25584 7.37083 6.04977 7.84997 6.015L8.75497 5.105C8.24785 4.97147 7.71459 4.97321 7.20835 5.11003C6.70211 5.24685 6.24058 5.51399 5.86977 5.8848C5.49896 6.25561 5.23182 6.71714 5.095 7.22338C4.95818 7.72962 4.95644 8.26288 5.08997 8.77L5.99997 7.865Z" fill="#19161D"></path>
-  <path d="M15.47 7.83C14.8966 6.3366 13.899 5.04351 12.6 4.11L15 1.705L14.295 1L0.99997 14.295L1.70497 15L4.25497 12.45C5.39191 13.117 6.68199 13.4787 7.99997 13.5C9.62971 13.4387 11.2058 12.9012 12.5334 11.954C13.861 11.0067 14.8819 9.69118 15.47 8.17C15.5097 8.06015 15.5097 7.93985 15.47 7.83ZM9.99997 8C9.99786 8.35005 9.90392 8.69342 9.72752 8.99578C9.55113 9.29815 9.29846 9.54892 8.99477 9.72303C8.69109 9.89714 8.34702 9.9885 7.99697 9.98797C7.64691 9.98744 7.30312 9.89503 6.99997 9.72L9.71997 7C9.89972 7.30287 9.99631 7.64783 9.99997 8ZM7.99997 12.5C6.951 12.4817 5.92192 12.2107 4.99997 11.71L6.26997 10.44C6.84764 10.8408 7.54774 11.026 8.24804 10.9632C8.94833 10.9005 9.60434 10.5937 10.1015 10.0965C10.5987 9.59937 10.9054 8.94336 10.9682 8.24307C11.031 7.54277 10.8458 6.84267 10.445 6.265L11.88 4.83C13.0273 5.61749 13.9244 6.71771 14.465 8C13.45 10.535 10.65 12.5 7.99997 12.5Z" fill="#19161D"></path>
+  <path d="M2.61997 11.255L3.33497 10.545C2.55208 9.84206 1.93696 8.97234 1.53497 8C2.54997 5.465 5.34997 3.5 7.99997 3.5C8.68192 3.509 9.35769 3.63064 9.99997 3.86L10.775 3.08C9.8963 2.70866 8.95382 2.51167 7.99997 2.5C6.37023 2.56129 4.79416 3.09878 3.46657 4.04604C2.13898 4.99331 1.11805 6.30882 0.52997 7.83C0.490254 7.93985 0.490254 8.06015 0.52997 8.17C0.974094 9.34851 1.69018 10.4055 2.61997 11.255Z" fill="currentColor"></path>
+  <path d="M5.99997 7.865C6.03474 7.38586 6.24082 6.93524 6.58051 6.59554C6.92021 6.25584 7.37083 6.04977 7.84997 6.015L8.75497 5.105C8.24785 4.97147 7.71459 4.97321 7.20835 5.11003C6.70211 5.24685 6.24058 5.51399 5.86977 5.8848C5.49896 6.25561 5.23182 6.71714 5.095 7.22338C4.95818 7.72962 4.95644 8.26288 5.08997 8.77L5.99997 7.865Z" fill="currentColor"></path>
+  <path d="M15.47 7.83C14.8966 6.3366 13.899 5.04351 12.6 4.11L15 1.705L14.295 1L0.99997 14.295L1.70497 15L4.25497 12.45C5.39191 13.117 6.68199 13.4787 7.99997 13.5C9.62971 13.4387 11.2058 12.9012 12.5334 11.954C13.861 11.0067 14.8819 9.69118 15.47 8.17C15.5097 8.06015 15.5097 7.93985 15.47 7.83ZM9.99997 8C9.99786 8.35005 9.90392 8.69342 9.72752 8.99578C9.55113 9.29815 9.29846 9.54892 8.99477 9.72303C8.69109 9.89714 8.34702 9.9885 7.99697 9.98797C7.64691 9.98744 7.30312 9.89503 6.99997 9.72L9.71997 7C9.89972 7.30287 9.99631 7.64783 9.99997 8ZM7.99997 12.5C6.951 12.4817 5.92192 12.2107 4.99997 11.71L6.26997 10.44C6.84764 10.8408 7.54774 11.026 8.24804 10.9632C8.94833 10.9005 9.60434 10.5937 10.1015 10.0965C10.5987 9.59937 10.9054 8.94336 10.9682 8.24307C11.031 7.54277 10.8458 6.84267 10.445 6.265L11.88 4.83C13.0273 5.61749 13.9244 6.71771 14.465 8C13.45 10.535 10.65 12.5 7.99997 12.5Z" fill="currentColor"></path>
 </svg>
 <svg id="other-eye-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M8 10.5C9.38071 10.5 10.5 9.38071 10.5 8C10.5 6.61929 9.38071 5.5 8 5.5C6.61929 5.5 5.5 6.61929 5.5 8C5.5 9.38071 6.61929 10.5 8 10.5Z" stroke="#19161D"></path>
-  <path d="M15 7.99995L14.8606 7.66545C12.2509 1.40215 3.30457 1.61805 1 7.99995" stroke="#19161D" stroke-linecap="round"></path>
-  <path d="M1 8L1.13936 8.3345C3.74908 14.5978 12.6954 14.3819 15 8" stroke="#19161D"></path>
+  <path d="M8 10.5C9.38071 10.5 10.5 9.38071 10.5 8C10.5 6.61929 9.38071 5.5 8 5.5C6.61929 5.5 5.5 6.61929 5.5 8C5.5 9.38071 6.61929 10.5 8 10.5Z" stroke="currentColor"></path>
+  <path d="M15 7.99995L14.8606 7.66545C12.2509 1.40215 3.30457 1.61805 1 7.99995" stroke="currentColor" stroke-linecap="round"></path>
+  <path d="M1 8L1.13936 8.3345C3.74908 14.5978 12.6954 14.3819 15 8" stroke="currentColor"></path>
 </svg>
 <svg id="other-google-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M14.5369 6.69425H13.9999V6.66659H7.99992V9.33325H11.7676C11.2179 10.8856 9.74092 11.9999 7.99992 11.9999C5.79092 11.9999 3.99992 10.2089 3.99992 7.99992C3.99992 5.79092 5.79092 3.99992 7.99992 3.99992C9.01959 3.99992 9.94725 4.38459 10.6536 5.01292L12.5393 3.12725C11.3486 2.01759 9.75592 1.33325 7.99992 1.33325C4.31825 1.33325 1.33325 4.31825 1.33325 7.99992C1.33325 11.6816 4.31825 14.6666 7.99992 14.6666C11.6816 14.6666 14.6666 11.6816 14.6666 7.99992C14.6666 7.55292 14.6206 7.11659 14.5369 6.69425Z" fill="#FFC107"></path>
@@ -530,6 +532,10 @@
   <circle cx="8" cy="8" r="8" fill="#F0C26A"></circle>
   <path d="M6 5V11" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
   <path d="M10 5V11" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<svg id="status-pulse-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="8" cy="8" r="8" fill="#E3E5EB"></circle>
+  <path d="M3 9H5L6 5L9 12L11 9H13" stroke="white" stroke-width="1.3" stroke-linecap="round"></path>
 </svg>
 <svg id="status-refusal-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
   <circle cx="8" cy="8" r="8" fill="currentColor" fill-opacity="0.8"></circle>
@@ -768,12 +774,12 @@
                         <use xlink:href="#aside-inbox-icon"></use>
                       </svg><span class="narrowed">Входящие</span></a>
               </div><i class="sidebar__separator"><span class="narrowed">Справочники</span></i>
-              <div class="sidebar__links"><a class="button button-with-icon-full" href="#" aria-label="button">
+              <div class="sidebar__links"><a class="button button-with-icon-full" href="/companies" aria-label="button">
                       <svg>
                         <use xlink:href="#aside-layout-icon"></use>
                       </svg><span class="narrowed">Рекламные кампании</span></a><a class="button button-with-icon-full" href="#" aria-label="button">
                       <svg>
-                        <use xlink:href="#aside-portfolio-icon"></use>
+                        <use xlink:href="#aside-organizations-icon"></use>
                       </svg><span class="narrowed">Организации</span></a><a class="button button-with-icon-full" href="/admins" aria-label="button">
                       <svg>
                         <use xlink:href="#aside-admins-icon"></use>
@@ -849,7 +855,7 @@
                   <div class="dropdown__container">
                     <div class="dropdown__sort">
                       <div class="dropdown__values"></div>
-                          <button class="button button-icon" type="button" aria-label="button">
+                          <button class="button button-icon sm" type="button" aria-label="button">
                             <svg>
                               <use xlink:href="#other-angle-down-icon"></use>
                             </svg>
@@ -859,7 +865,7 @@
                       <div class="dropdown__inner"><img class="dropdown__image" src="/assets/images/user-image.png" alt="icon">
                         <div class="dropdown__title">Максим Амбиндер</div>
                       </div>
-                          <button class="button button-icon" type="button" aria-label="button">
+                          <button class="button button-icon sm" type="button" aria-label="button">
                             <svg>
                               <use xlink:href="#other-angle-down-icon"></use>
                             </svg>
@@ -951,7 +957,7 @@
                 </thead>
                 <tbody>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -965,7 +971,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -975,7 +981,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1002,16 +1008,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1025,7 +1031,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1035,7 +1041,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1062,16 +1068,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1085,7 +1091,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1095,7 +1101,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1122,16 +1128,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1145,7 +1151,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1155,7 +1161,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1182,16 +1188,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1205,7 +1211,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1215,7 +1221,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1242,16 +1248,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1265,7 +1271,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1275,7 +1281,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1302,16 +1308,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1325,7 +1331,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1335,7 +1341,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1362,16 +1368,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1385,7 +1391,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1395,7 +1401,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1422,16 +1428,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1445,7 +1451,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1455,7 +1461,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1482,16 +1488,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1505,7 +1511,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1515,7 +1521,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1542,16 +1548,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1565,7 +1571,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1575,7 +1581,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1602,16 +1608,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1625,7 +1631,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1635,7 +1641,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1662,16 +1668,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1685,7 +1691,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1695,7 +1701,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1722,16 +1728,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1745,7 +1751,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1755,7 +1761,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1782,16 +1788,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1805,7 +1811,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1815,7 +1821,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1842,16 +1848,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1865,7 +1871,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1875,7 +1881,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1902,16 +1908,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1925,7 +1931,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1935,7 +1941,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1962,16 +1968,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -1985,7 +1991,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -1995,7 +2001,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -2022,16 +2028,16 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                   <tr> 
-                    <td class="border-r border-black-500" width="280px">
+                    <td class="border-r border-black-500" style="min-width:280px">
                       <div class="flex items-center gap-x-[6px]"><img class="rounded w-[30px] h-[30px]" src="/assets/images/tg-channel.png" alt="tg-channel">
                         <div class="flex flex-col items-start">
                           <h3>ZeroDay | Кибербезопасность</h3><a href="https://t.me/cybersec_academy" target="_blank">@cybersec_academy </a>
@@ -2045,7 +2051,7 @@
                             <div class="dropdown__container">
                               <div class="dropdown__sort">
                                 <div class="dropdown__values"></div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -2055,7 +2061,7 @@
                                 <div class="dropdown__inner">
                                   <div class="dropdown__title">1/24</div>
                                 </div>
-                                    <button class="button button-icon" type="button" aria-label="button">
+                                    <button class="button button-icon sm" type="button" aria-label="button">
                                       <svg>
                                         <use xlink:href="#other-angle-down-icon"></use>
                                       </svg>
@@ -2082,12 +2088,12 @@
                             </div>
                           </div>
                     </td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-right">15%</td>
-                    <td class="only-text text-center">25,5%</td>
-                    <td class="only-text text-center">25,5%</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-right">15</td>
+                    <td class="only-text text-center">25,5</td>
+                    <td class="only-text text-center">25,5</td>
                     <td class="only-text">
-                      <div class="flex justify-center gap-x-2.5"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
+                      <div class="flex justify-center gap-x-[9px]"><span class="male inline-block">45%</span><span class="female inline-block">55%</span></div>
                     </td>
                   </tr>
                 </tbody>
@@ -2103,7 +2109,7 @@
     </svg></a></div>
             </div>
           </div>
-          <aside class="filter visible-bottom">
+          <aside class="filter">
             <div class="filter__container">
               <div class="filter__title"> 
                 <h2>Фильтр</h2>
@@ -2132,7 +2138,7 @@
                       <div class="dropdown__container">
                         <div class="dropdown__sort">
                           <div class="dropdown__values"></div>
-                              <button class="button button-icon" type="button" aria-label="button">
+                              <button class="button button-icon sm" type="button" aria-label="button">
                                 <svg>
                                   <use xlink:href="#other-angle-down-icon"></use>
                                 </svg>
@@ -2142,7 +2148,7 @@
                           <div class="dropdown__inner">
                             <div class="dropdown__title">Выберите категорию</div>
                           </div>
-                              <button class="button button-icon" type="button" aria-label="button">
+                              <button class="button button-icon sm" type="button" aria-label="button">
                                 <svg>
                                   <use xlink:href="#other-angle-down-icon"></use>
                                 </svg>
@@ -2263,7 +2269,7 @@
                       <div class="dropdown__container">
                         <div class="dropdown__sort">
                           <div class="dropdown__values"></div>
-                              <button class="button button-icon" type="button" aria-label="button">
+                              <button class="button button-icon sm" type="button" aria-label="button">
                                 <svg>
                                   <use xlink:href="#other-angle-down-icon"></use>
                                 </svg>
@@ -2273,7 +2279,7 @@
                           <div class="dropdown__inner">
                             <div class="dropdown__title">Выберите организацию</div>
                           </div>
-                              <button class="button button-icon" type="button" aria-label="button">
+                              <button class="button button-icon sm" type="button" aria-label="button">
                                 <svg>
                                   <use xlink:href="#other-angle-down-icon"></use>
                                 </svg>
@@ -2394,7 +2400,7 @@
                       <div class="dropdown__container">
                         <div class="dropdown__sort">
                           <div class="dropdown__values"></div>
-                              <button class="button button-icon" type="button" aria-label="button">
+                              <button class="button button-icon sm" type="button" aria-label="button">
                                 <svg>
                                   <use xlink:href="#other-angle-down-icon"></use>
                                 </svg>
@@ -2404,7 +2410,7 @@
                           <div class="dropdown__inner">
                             <div class="dropdown__title">Выберите администратора</div>
                           </div>
-                              <button class="button button-icon" type="button" aria-label="button">
+                              <button class="button button-icon sm" type="button" aria-label="button">
                                 <svg>
                                   <use xlink:href="#other-angle-down-icon"></use>
                                 </svg>
@@ -2671,7 +2677,7 @@
                       <div class="dropdown__container">
                         <div class="dropdown__sort">
                           <div class="dropdown__values"></div>
-                              <button class="button button-icon" type="button" aria-label="button">
+                              <button class="button button-icon sm" type="button" aria-label="button">
                                 <svg>
                                   <use xlink:href="#other-angle-down-icon"></use>
                                 </svg>
@@ -2681,7 +2687,7 @@
                           <div class="dropdown__inner">
                             <div class="dropdown__title">Выберите каналы</div>
                           </div>
-                              <button class="button button-icon" type="button" aria-label="button">
+                              <button class="button button-icon sm" type="button" aria-label="button">
                                 <svg>
                                   <use xlink:href="#other-angle-down-icon"></use>
                                 </svg>
@@ -2803,7 +2809,7 @@
                       <div class="dropdown__container">
                         <div class="dropdown__sort">
                           <div class="dropdown__values"></div>
-                              <button class="button button-icon" type="button" aria-label="button">
+                              <button class="button button-icon sm" type="button" aria-label="button">
                                 <svg>
                                   <use xlink:href="#other-angle-down-icon"></use>
                                 </svg>
@@ -2813,7 +2819,7 @@
                           <div class="dropdown__inner">
                             <div class="dropdown__title">Выберите организацию</div>
                           </div>
-                              <button class="button button-icon" type="button" aria-label="button">
+                              <button class="button button-icon sm" type="button" aria-label="button">
                                 <svg>
                                   <use xlink:href="#other-angle-down-icon"></use>
                                 </svg>
@@ -2937,7 +2943,7 @@
                       <div class="dropdown__container">
                         <div class="dropdown__sort">
                           <div class="dropdown__values"></div>
-                              <button class="button button-icon" type="button" aria-label="button">
+                              <button class="button button-icon sm" type="button" aria-label="button">
                                 <svg>
                                   <use xlink:href="#other-angle-down-icon"></use>
                                 </svg>
@@ -2947,7 +2953,7 @@
                           <div class="dropdown__inner">
                             <div class="dropdown__title">––</div>
                           </div>
-                              <button class="button button-icon" type="button" aria-label="button">
+                              <button class="button button-icon sm" type="button" aria-label="button">
                                 <svg>
                                   <use xlink:href="#other-angle-down-icon"></use>
                                 </svg>
@@ -2955,24 +2961,24 @@
                         </div>
                         <div class="dropdown__list">
                           <label class="dropdown__item">
-                            <input type="radio" name="radio-dropdown-priority" data-color="red">
-                            <p><span class="red">Очень высокий</span></p>
+                            <input type="radio" name="radio-dropdown-priority" data-color="priority-red">
+                            <p><span class="priority-red">Очень высокий</span></p>
                           </label>
                           <label class="dropdown__item">
-                            <input type="radio" name="radio-dropdown-priority" data-color="pink">
-                            <p><span class="pink">Высокий</span></p>
+                            <input type="radio" name="radio-dropdown-priority" data-color="priority-pink">
+                            <p><span class="priority-pink">Высокий</span></p>
                           </label>
                           <label class="dropdown__item">
-                            <input type="radio" name="radio-dropdown-priority" data-color="orange">
-                            <p><span class="orange">Средний</span></p>
+                            <input type="radio" name="radio-dropdown-priority" data-color="priority-orange">
+                            <p><span class="priority-orange">Средний</span></p>
                           </label>
                           <label class="dropdown__item">
-                            <input type="radio" name="radio-dropdown-priority" data-color="peach">
-                            <p><span class="peach">Низкий</span></p>
+                            <input type="radio" name="radio-dropdown-priority" data-color="priority-peach">
+                            <p><span class="priority-peach">Низкий</span></p>
                           </label>
                           <label class="dropdown__item">
-                            <input type="radio" name="radio-dropdown-priority" data-color="yellow">
-                            <p><span class="yellow">Очень низкий</span></p>
+                            <input type="radio" name="radio-dropdown-priority" data-color="priority-yellow">
+                            <p><span class="priority-yellow">Очень низкий</span></p>
                           </label>
                         </div>
                       </div>
